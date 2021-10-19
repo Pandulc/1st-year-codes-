@@ -1,0 +1,10 @@
+Datos del producto: 
+Nombre: Leche
+Marca: 
+Ilolay
+
+Precio Unitario: 100
+Fecha de Caducidad: 
+31/31/2021
+
+Tamanio: 1

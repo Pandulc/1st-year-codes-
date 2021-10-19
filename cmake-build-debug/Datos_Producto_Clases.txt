@@ -1,0 +1,108 @@
+Datos del Producto 1
+Nombre: 
+g
+Marca: 
+cc
+Precio: 300
+Fecha de Caducidad: 
+31
+Tamanio: 2
+Datos del Producto 2
+Nombre: 
+g
+Marca: 
+s
+Precio: 270
+Fecha de Caducidad: 
+31
+Tamanio: 2
+Datos del Producto 3
+Nombre: 
+g
+Marca: 
+f
+Precio: 240
+Fecha de Caducidad: 
+31
+Tamanio: 2
+Datos del Producto 1
+Nombre: 
+l
+Marca: 
+i
+Precio: 70
+Fecha de Caducidad: 
+31
+Tamanio: 1
+Datos del Producto 2
+Nombre: 
+a
+Marca: 
+m
+Precio: 90
+Fecha de Caducidad: 
+31
+Tamanio: 350
+Datos del Producto 3
+Nombre: 
+p
+Marca: 
+m
+Precio: 45
+Fecha de Caducidad: 
+31
+Tamanio: 500
+Datos del Producto 1
+Nombre: 
+l
+Marca: 
+i
+Precio: 70
+Fecha de Caducidad: 
+31
+
+Tamanio: 1
+Datos del Producto 2
+Nombre: 
+l
+Marca: 
+s
+Precio: 100
+Fecha de Caducidad: 
+31
+Tamanio: 1
+Datos del Producto 3
+Nombre: 
+Marca: 
+r
+Precio: 50
+Fecha de Caducidad: 
+31
+Tamanio: 1
+Datos del Producto 1
+Nombre: 
+g
+Marca: 
+cc
+Precio: 350
+Fecha de Caducidad: 
+31
+Tamanio: 2
+Datos del Producto 2
+Nombre: 
+g
+Marca: 
+f
+Precio: 280
+Fecha de Caducidad: 
+31
+Tamanio: 2
+Datos del Producto 3
+Nombre: 
+g
+Marca: 
+s
+Precio: 250
+Fecha de Caducidad: 
+31
+Tamanio: 2

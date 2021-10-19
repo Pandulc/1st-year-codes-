@@ -1,0 +1,27 @@
+Datos del Producto 1
+Nombre: 
+g
+Marca: 
+cc
+Precio: 300
+Fecha de Caducidad: 
+31
+Tamanio: 2
+Datos del Producto 2
+Nombre: 
+g
+Marca: 
+s
+Precio: 250
+Fecha de Caducidad: 
+31
+Tamanio: 2
+Datos del Producto 3
+Nombre: 
+g
+Marca: 
+f
+Precio: 280
+Fecha de Caducidad: 
+31
+Tamanio: 2

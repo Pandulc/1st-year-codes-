@@ -1,0 +1,10 @@
+Marca del celular: 
+Samsumng
+Modelo del celular: 
+J2 Prime 16 GB
+Precio del celular: 12000
+Marca del celular: 
+Motorola
+Modelo del celular: 
+One Fusion 128 GB
+Precio del celular: 32000
