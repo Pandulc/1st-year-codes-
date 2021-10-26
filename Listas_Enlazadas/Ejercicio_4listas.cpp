@@ -25,8 +25,6 @@ int main (){
     LinkedList<invoice> bills;
     bills = load(bills);
 
-
-
     do{
         option = menu();
         switch(option){

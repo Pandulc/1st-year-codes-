@@ -3,7 +3,7 @@
 #include "LinkedList.h"
 using namespace std;
 
-struct stock{
+struct Stock{
     int code = 0;
     string name = " ";
     int quantity = 0;
@@ -11,15 +11,15 @@ struct stock{
 };
 
 int menu ();
-LinkedList<stock> load (LinkedList<stock>);
-void show_stock (LinkedList<stock>);
-void rest_stock (LinkedList<stock>);
-void add_stock (LinkedList<stock>);
+LinkedList<Stock> load (LinkedList<Stock>);
+void show_stock (LinkedList<Stock>);
+void rest_stock (LinkedList<Stock>);
+void add_stock (LinkedList<Stock>);
 
 
 int main (){
 
-    LinkedList<stock> s;
+    LinkedList<Stock> s;
     int option;
 
     do{
@@ -52,21 +52,21 @@ int menu (){
     cout<<"Ingrese la opcion a realizar"<<endl;
     cout<<"1. Cargar datos"<<endl;
     cout<<"2. Mostrar listado completo"<<endl;
-    cout<<"3. Descontar stock de producto especifico"<<endl;
-    cout<<"4. Sumar stock de producto especifico"<<endl;
+    cout<<"3. Descontar Stock de producto especifico"<<endl;
+    cout<<"4. Sumar Stock de producto especifico"<<endl;
     cout<<"0. Salir"<<endl;
     cin>>option;
     return option;
 }
 
 LinkedList<stock> load (LinkedList<stock> stock){
-    struct stock aux;
+    struct Stock aux;
 
     for (int i = 0; i < 3; ++i) {
         aux.code = i + 1;
         cout<<"Ingrese el nombre del producto numero "<<i+1<<endl;
         getline(cin,aux.name,'.');
-        cout<<"Ingrese la cantidad de elementos en stock"<<endl;
+        cout<<"Ingrese la cantidad de elementos en Stock"<<endl;
         cin>>aux.quantity;
         cout<<"Ingrese el precio de lista"<<endl;
         cin>>aux.price;
@@ -91,11 +91,11 @@ void show_stock (LinkedList<stock> stock){
 void rest_stock (LinkedList<stock> stock){
     int code = 0;
     int stock_toremove = 0;
-    struct stock aux;
+    struct Stock aux;
 
-    cout<<"Ingrese el codigo de producto a descontar stock"<<endl;
+    cout<<"Ingrese el codigo de producto a descontar Stock"<<endl;
     cin>>code;
-    cout<<"Ingrese el stock a reducir"<<endl;
+    cout<<"Ingrese el Stock a reducir"<<endl;
     cin>>stock_toremove;
 
     for (int i = 0; i < 3; ++i) {
@@ -112,11 +112,11 @@ void rest_stock (LinkedList<stock> stock){
 void add_stock (LinkedList<stock> stock){
     int code = 0;
     int stock_toadd = 0;
-    struct stock aux;
+    struct Stock aux;
 
-    cout<<"Ingrese el codigo de producto a agregar stock"<<endl;
+    cout<<"Ingrese el codigo de producto a agregar Stock"<<endl;
     cin>>code;
-    cout<<"Ingrese el stock a agregar"<<endl;
+    cout<<"Ingrese el Stock a agregar"<<endl;
     cin>>stock_toadd;
 
     for (int i = 0; i < 3; ++i) {

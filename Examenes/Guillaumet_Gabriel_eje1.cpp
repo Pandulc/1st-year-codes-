@@ -53,7 +53,7 @@ int menu (){
 
     cout<<"Ingrese la opcion a realizar"<<endl;
     cout<<"1. mostrar el listado completo de celulares."<<endl;
-    cout<<"2. mostrar el listado completo de celulares que no hay stock. Y generar un archivo para enviar al proveedor."<<endl;
+    cout<<"2. mostrar el listado completo de celulares que no hay Stock. Y generar un archivo para enviar al proveedor."<<endl;
     cout<<"3. Calcular precio al publico."<<endl;
     cout<<"4. Ordenar por precio al publico."<<endl;
     cout<<"0. Salir."<<endl;
@@ -97,7 +97,7 @@ void mostrar_listado_completo (Celular * c){
 
 void mostrar_listado_noStock (Celular * c){
 
-    cout<<"Listado de Celulares sin stock"<<endl;
+    cout<<"Listado de Celulares sin Stock"<<endl;
     for(int ii = 0; ii < TAM; ii++){
         if(c[ii].stock == 0){
             ofstream celulares;

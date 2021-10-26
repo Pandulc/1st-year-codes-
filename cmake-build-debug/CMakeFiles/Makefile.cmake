@@ -92,4 +92,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Guillaumet_Gabriel_eje2.dir/DependInfo.cmake"
   "CMakeFiles/Guillaumet_Gabriel_eje3.dir/DependInfo.cmake"
   "CMakeFiles/Ejercicio_3listas_c.dir/DependInfo.cmake"
+  "CMakeFiles/Ejercicio_5listas.dir/DependInfo.cmake"
+  "CMakeFiles/Ejercicio_1Colas.dir/DependInfo.cmake"
+  "CMakeFiles/Ejercicio_2Colas.dir/DependInfo.cmake"
+  "CMakeFiles/Ejercicio_1Pilas.dir/DependInfo.cmake"
+  "CMakeFiles/Ejercicio_2Pilas.dir/DependInfo.cmake"
   )

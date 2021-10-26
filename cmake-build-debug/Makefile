@@ -648,6 +648,71 @@ Ejercicio_3listas_c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_3listas_c.dir\build.make CMakeFiles/Ejercicio_3listas_c.dir/build
 .PHONY : Ejercicio_3listas_c/fast
 
+#=============================================================================
+# Target rules for targets named Ejercicio_5listas
+
+# Build rule for target.
+Ejercicio_5listas: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_5listas
+.PHONY : Ejercicio_5listas
+
+# fast build rule for target.
+Ejercicio_5listas/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5listas.dir\build.make CMakeFiles/Ejercicio_5listas.dir/build
+.PHONY : Ejercicio_5listas/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio_1Colas
+
+# Build rule for target.
+Ejercicio_1Colas: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_1Colas
+.PHONY : Ejercicio_1Colas
+
+# fast build rule for target.
+Ejercicio_1Colas/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_1Colas.dir\build.make CMakeFiles/Ejercicio_1Colas.dir/build
+.PHONY : Ejercicio_1Colas/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio_2Colas
+
+# Build rule for target.
+Ejercicio_2Colas: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_2Colas
+.PHONY : Ejercicio_2Colas
+
+# fast build rule for target.
+Ejercicio_2Colas/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2Colas.dir\build.make CMakeFiles/Ejercicio_2Colas.dir/build
+.PHONY : Ejercicio_2Colas/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio_1Pilas
+
+# Build rule for target.
+Ejercicio_1Pilas: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_1Pilas
+.PHONY : Ejercicio_1Pilas
+
+# fast build rule for target.
+Ejercicio_1Pilas/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_1Pilas.dir\build.make CMakeFiles/Ejercicio_1Pilas.dir/build
+.PHONY : Ejercicio_1Pilas/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio_2Pilas
+
+# Build rule for target.
+Ejercicio_2Pilas: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_2Pilas
+.PHONY : Ejercicio_2Pilas
+
+# fast build rule for target.
+Ejercicio_2Pilas/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2Pilas.dir\build.make CMakeFiles/Ejercicio_2Pilas.dir/build
+.PHONY : Ejercicio_2Pilas/fast
+
 Archivos/Ejercicio_1.obj: Archivos/Ejercicio_1.cpp.obj
 .PHONY : Archivos/Ejercicio_1.obj
 
@@ -827,6 +892,54 @@ Clases/Ejercicio3/Pets.s: Clases/Ejercicio3/Pets.cpp.s
 Clases/Ejercicio3/Pets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_3C.dir\build.make CMakeFiles/Ejercicio_3C.dir/Clases/Ejercicio3/Pets.cpp.s
 .PHONY : Clases/Ejercicio3/Pets.cpp.s
+
+Colas/Ejercicio_1Colas.obj: Colas/Ejercicio_1Colas.cpp.obj
+.PHONY : Colas/Ejercicio_1Colas.obj
+
+# target to build an object file
+Colas/Ejercicio_1Colas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_1Colas.dir\build.make CMakeFiles/Ejercicio_1Colas.dir/Colas/Ejercicio_1Colas.cpp.obj
+.PHONY : Colas/Ejercicio_1Colas.cpp.obj
+
+Colas/Ejercicio_1Colas.i: Colas/Ejercicio_1Colas.cpp.i
+.PHONY : Colas/Ejercicio_1Colas.i
+
+# target to preprocess a source file
+Colas/Ejercicio_1Colas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_1Colas.dir\build.make CMakeFiles/Ejercicio_1Colas.dir/Colas/Ejercicio_1Colas.cpp.i
+.PHONY : Colas/Ejercicio_1Colas.cpp.i
+
+Colas/Ejercicio_1Colas.s: Colas/Ejercicio_1Colas.cpp.s
+.PHONY : Colas/Ejercicio_1Colas.s
+
+# target to generate assembly for a file
+Colas/Ejercicio_1Colas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_1Colas.dir\build.make CMakeFiles/Ejercicio_1Colas.dir/Colas/Ejercicio_1Colas.cpp.s
+.PHONY : Colas/Ejercicio_1Colas.cpp.s
+
+Colas/Ejercicio_2Colas.obj: Colas/Ejercicio_2Colas.cpp.obj
+.PHONY : Colas/Ejercicio_2Colas.obj
+
+# target to build an object file
+Colas/Ejercicio_2Colas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2Colas.dir\build.make CMakeFiles/Ejercicio_2Colas.dir/Colas/Ejercicio_2Colas.cpp.obj
+.PHONY : Colas/Ejercicio_2Colas.cpp.obj
+
+Colas/Ejercicio_2Colas.i: Colas/Ejercicio_2Colas.cpp.i
+.PHONY : Colas/Ejercicio_2Colas.i
+
+# target to preprocess a source file
+Colas/Ejercicio_2Colas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2Colas.dir\build.make CMakeFiles/Ejercicio_2Colas.dir/Colas/Ejercicio_2Colas.cpp.i
+.PHONY : Colas/Ejercicio_2Colas.cpp.i
+
+Colas/Ejercicio_2Colas.s: Colas/Ejercicio_2Colas.cpp.s
+.PHONY : Colas/Ejercicio_2Colas.s
+
+# target to generate assembly for a file
+Colas/Ejercicio_2Colas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2Colas.dir\build.make CMakeFiles/Ejercicio_2Colas.dir/Colas/Ejercicio_2Colas.cpp.s
+.PHONY : Colas/Ejercicio_2Colas.cpp.s
 
 Estructuras/Ejercicio_1E.obj: Estructuras/Ejercicio_1E.cpp.obj
 .PHONY : Estructuras/Ejercicio_1E.obj
@@ -1116,6 +1229,30 @@ Listas_Enlazadas/Ejercicio_4listas.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4listas.dir\build.make CMakeFiles/Ejercicio_4listas.dir/Listas_Enlazadas/Ejercicio_4listas.cpp.s
 .PHONY : Listas_Enlazadas/Ejercicio_4listas.cpp.s
 
+Listas_Enlazadas/Ejercicio_5listas.obj: Listas_Enlazadas/Ejercicio_5listas.cpp.obj
+.PHONY : Listas_Enlazadas/Ejercicio_5listas.obj
+
+# target to build an object file
+Listas_Enlazadas/Ejercicio_5listas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5listas.dir\build.make CMakeFiles/Ejercicio_5listas.dir/Listas_Enlazadas/Ejercicio_5listas.cpp.obj
+.PHONY : Listas_Enlazadas/Ejercicio_5listas.cpp.obj
+
+Listas_Enlazadas/Ejercicio_5listas.i: Listas_Enlazadas/Ejercicio_5listas.cpp.i
+.PHONY : Listas_Enlazadas/Ejercicio_5listas.i
+
+# target to preprocess a source file
+Listas_Enlazadas/Ejercicio_5listas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5listas.dir\build.make CMakeFiles/Ejercicio_5listas.dir/Listas_Enlazadas/Ejercicio_5listas.cpp.i
+.PHONY : Listas_Enlazadas/Ejercicio_5listas.cpp.i
+
+Listas_Enlazadas/Ejercicio_5listas.s: Listas_Enlazadas/Ejercicio_5listas.cpp.s
+.PHONY : Listas_Enlazadas/Ejercicio_5listas.s
+
+# target to generate assembly for a file
+Listas_Enlazadas/Ejercicio_5listas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5listas.dir\build.make CMakeFiles/Ejercicio_5listas.dir/Listas_Enlazadas/Ejercicio_5listas.cpp.s
+.PHONY : Listas_Enlazadas/Ejercicio_5listas.cpp.s
+
 Memoria_Dinamica/Ejercicio_1MD.obj: Memoria_Dinamica/Ejercicio_1MD.cpp.obj
 .PHONY : Memoria_Dinamica/Ejercicio_1MD.obj
 
@@ -1187,6 +1324,54 @@ Memoria_Dinamica/Ejercicio_3MD.s: Memoria_Dinamica/Ejercicio_3MD.cpp.s
 Memoria_Dinamica/Ejercicio_3MD.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_3MD.dir\build.make CMakeFiles/Ejercicio_3MD.dir/Memoria_Dinamica/Ejercicio_3MD.cpp.s
 .PHONY : Memoria_Dinamica/Ejercicio_3MD.cpp.s
+
+Pilas/Ejercicio_1Pilas.obj: Pilas/Ejercicio_1Pilas.cpp.obj
+.PHONY : Pilas/Ejercicio_1Pilas.obj
+
+# target to build an object file
+Pilas/Ejercicio_1Pilas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_1Pilas.dir\build.make CMakeFiles/Ejercicio_1Pilas.dir/Pilas/Ejercicio_1Pilas.cpp.obj
+.PHONY : Pilas/Ejercicio_1Pilas.cpp.obj
+
+Pilas/Ejercicio_1Pilas.i: Pilas/Ejercicio_1Pilas.cpp.i
+.PHONY : Pilas/Ejercicio_1Pilas.i
+
+# target to preprocess a source file
+Pilas/Ejercicio_1Pilas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_1Pilas.dir\build.make CMakeFiles/Ejercicio_1Pilas.dir/Pilas/Ejercicio_1Pilas.cpp.i
+.PHONY : Pilas/Ejercicio_1Pilas.cpp.i
+
+Pilas/Ejercicio_1Pilas.s: Pilas/Ejercicio_1Pilas.cpp.s
+.PHONY : Pilas/Ejercicio_1Pilas.s
+
+# target to generate assembly for a file
+Pilas/Ejercicio_1Pilas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_1Pilas.dir\build.make CMakeFiles/Ejercicio_1Pilas.dir/Pilas/Ejercicio_1Pilas.cpp.s
+.PHONY : Pilas/Ejercicio_1Pilas.cpp.s
+
+Pilas/Ejercicio_2Pilas.obj: Pilas/Ejercicio_2Pilas.cpp.obj
+.PHONY : Pilas/Ejercicio_2Pilas.obj
+
+# target to build an object file
+Pilas/Ejercicio_2Pilas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2Pilas.dir\build.make CMakeFiles/Ejercicio_2Pilas.dir/Pilas/Ejercicio_2Pilas.cpp.obj
+.PHONY : Pilas/Ejercicio_2Pilas.cpp.obj
+
+Pilas/Ejercicio_2Pilas.i: Pilas/Ejercicio_2Pilas.cpp.i
+.PHONY : Pilas/Ejercicio_2Pilas.i
+
+# target to preprocess a source file
+Pilas/Ejercicio_2Pilas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2Pilas.dir\build.make CMakeFiles/Ejercicio_2Pilas.dir/Pilas/Ejercicio_2Pilas.cpp.i
+.PHONY : Pilas/Ejercicio_2Pilas.cpp.i
+
+Pilas/Ejercicio_2Pilas.s: Pilas/Ejercicio_2Pilas.cpp.s
+.PHONY : Pilas/Ejercicio_2Pilas.s
+
+# target to generate assembly for a file
+Pilas/Ejercicio_2Pilas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2Pilas.dir\build.make CMakeFiles/Ejercicio_2Pilas.dir/Pilas/Ejercicio_2Pilas.cpp.s
+.PHONY : Pilas/Ejercicio_2Pilas.cpp.s
 
 Punteros/Ejercicio_1p.obj: Punteros/Ejercicio_1p.cpp.obj
 .PHONY : Punteros/Ejercicio_1p.obj
@@ -1561,8 +1746,10 @@ help:
 	@echo ... Ejercicio_1
 	@echo ... Ejercicio_1A
 	@echo ... Ejercicio_1C
+	@echo ... Ejercicio_1Colas
 	@echo ... Ejercicio_1E
 	@echo ... Ejercicio_1MD
+	@echo ... Ejercicio_1Pilas
 	@echo ... Ejercicio_1R
 	@echo ... Ejercicio_1Rec
 	@echo ... Ejercicio_1listas
@@ -1570,8 +1757,10 @@ help:
 	@echo ... Ejercicio_2
 	@echo ... Ejercicio_2A
 	@echo ... Ejercicio_2C
+	@echo ... Ejercicio_2Colas
 	@echo ... Ejercicio_2E
 	@echo ... Ejercicio_2MD
+	@echo ... Ejercicio_2Pilas
 	@echo ... Ejercicio_2R
 	@echo ... Ejercicio_2Rec
 	@echo ... Ejercicio_2listas
@@ -1592,6 +1781,7 @@ help:
 	@echo ... Ejercicio_4Rec
 	@echo ... Ejercicio_4listas
 	@echo ... Ejercicio_4p
+	@echo ... Ejercicio_5listas
 	@echo ... Ejercicio_5p
 	@echo ... Ejercicio_6p
 	@echo ... Guillaumet_Gabriel_eje1
@@ -1618,6 +1808,12 @@ help:
 	@echo ... Clases/Ejercicio3/Pets.obj
 	@echo ... Clases/Ejercicio3/Pets.i
 	@echo ... Clases/Ejercicio3/Pets.s
+	@echo ... Colas/Ejercicio_1Colas.obj
+	@echo ... Colas/Ejercicio_1Colas.i
+	@echo ... Colas/Ejercicio_1Colas.s
+	@echo ... Colas/Ejercicio_2Colas.obj
+	@echo ... Colas/Ejercicio_2Colas.i
+	@echo ... Colas/Ejercicio_2Colas.s
 	@echo ... Estructuras/Ejercicio_1E.obj
 	@echo ... Estructuras/Ejercicio_1E.i
 	@echo ... Estructuras/Ejercicio_1E.s
@@ -1654,6 +1850,9 @@ help:
 	@echo ... Listas_Enlazadas/Ejercicio_4listas.obj
 	@echo ... Listas_Enlazadas/Ejercicio_4listas.i
 	@echo ... Listas_Enlazadas/Ejercicio_4listas.s
+	@echo ... Listas_Enlazadas/Ejercicio_5listas.obj
+	@echo ... Listas_Enlazadas/Ejercicio_5listas.i
+	@echo ... Listas_Enlazadas/Ejercicio_5listas.s
 	@echo ... Memoria_Dinamica/Ejercicio_1MD.obj
 	@echo ... Memoria_Dinamica/Ejercicio_1MD.i
 	@echo ... Memoria_Dinamica/Ejercicio_1MD.s
@@ -1663,6 +1862,12 @@ help:
 	@echo ... Memoria_Dinamica/Ejercicio_3MD.obj
 	@echo ... Memoria_Dinamica/Ejercicio_3MD.i
 	@echo ... Memoria_Dinamica/Ejercicio_3MD.s
+	@echo ... Pilas/Ejercicio_1Pilas.obj
+	@echo ... Pilas/Ejercicio_1Pilas.i
+	@echo ... Pilas/Ejercicio_1Pilas.s
+	@echo ... Pilas/Ejercicio_2Pilas.obj
+	@echo ... Pilas/Ejercicio_2Pilas.i
+	@echo ... Pilas/Ejercicio_2Pilas.s
 	@echo ... Punteros/Ejercicio_1p.obj
 	@echo ... Punteros/Ejercicio_1p.i
 	@echo ... Punteros/Ejercicio_1p.s

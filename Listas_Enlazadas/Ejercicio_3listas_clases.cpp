@@ -43,8 +43,8 @@ int menu (){
     cout<<"Ingrese la opcion a realizar"<<endl;
     cout<<"1. Cargar datos"<<endl;
     cout<<"2. Mostrar listado completo"<<endl;
-    cout<<"3. Descontar stock de producto especifico"<<endl;
-    cout<<"4. Sumar stock de producto especifico"<<endl;
+    cout<<"3. Descontar Stock de producto especifico"<<endl;
+    cout<<"4. Sumar Stock de producto especifico"<<endl;
     cout<<"0. Salir"<<endl;
     cin>>option;
     return option;
@@ -61,7 +61,7 @@ LinkedList<Stock> load (LinkedList<Stock> stock){
         cout<<"Ingrese el nombre del producto numero "<<i+1<<endl;
         getline(cin,aux_name,'.');
         aux.setName(aux_name);
-        cout<<"Ingrese la cantidad de elementos en stock"<<endl;
+        cout<<"Ingrese la cantidad de elementos en Stock"<<endl;
         cin>>aux_quantity;
         aux.setQuantity(aux_quantity);
         cout<<"Ingrese el precio de lista"<<endl;
@@ -89,9 +89,9 @@ void rest_stock (LinkedList<Stock> stock){
     int stock_toremove = 0;
     Stock aux;
 
-    cout<<"Ingrese el codigo de producto a descontar stock"<<endl;
+    cout<<"Ingrese el codigo de producto a descontar Stock"<<endl;
     cin>>code;
-    cout<<"Ingrese el stock a reducir"<<endl;
+    cout<<"Ingrese el Stock a reducir"<<endl;
     cin>>stock_toremove;
 
     for (int i = 0; i < 3; ++i) {
@@ -110,9 +110,9 @@ void add_stock (LinkedList<Stock> stock){
     int stock_toadd = 0;
     Stock aux;
 
-    cout<<"Ingrese el codigo de producto a agregar stock"<<endl;
+    cout<<"Ingrese el codigo de producto a agregar Stock"<<endl;
     cin>>code;
-    cout<<"Ingrese el stock a agregar"<<endl;
+    cout<<"Ingrese el Stock a agregar"<<endl;
     cin >> stock_toadd;
 
     for (int i = 0; i < 3; ++i) {
