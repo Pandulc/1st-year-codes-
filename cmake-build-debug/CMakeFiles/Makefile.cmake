@@ -97,4 +97,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Ejercicio_2Colas.dir/DependInfo.cmake"
   "CMakeFiles/Ejercicio_1Pilas.dir/DependInfo.cmake"
   "CMakeFiles/Ejercicio_2Pilas.dir/DependInfo.cmake"
+  "CMakeFiles/Ejercicio_4R.dir/DependInfo.cmake"
+  "CMakeFiles/Ejercicio_5R.dir/DependInfo.cmake"
+  "CMakeFiles/Ejercicio_6R.dir/DependInfo.cmake"
   )

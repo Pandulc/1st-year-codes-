@@ -2051,6 +2051,138 @@
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Ejercicio_4R">
+				<Option output="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Ejercicio_4R.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ejercicio_4R"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ejercicio_4R/fast">
+				<Option output="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Ejercicio_4R.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ejercicio_4R/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ejercicio_5R">
+				<Option output="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Ejercicio_5R.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ejercicio_5R"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ejercicio_5R/fast">
+				<Option output="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Ejercicio_5R.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ejercicio_5R/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ejercicio_6R">
+				<Option output="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Ejercicio_6R.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ejercicio_6R"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ejercicio_6R/fast">
+				<Option output="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Ejercicio_6R.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ejercicio_6R/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug"/>
 				<Option type="4"/>
@@ -2204,6 +2336,15 @@
 		</Unit>
 		<Unit filename="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/Repaso/Ejercicio_3R.cpp">
 			<Option target="Ejercicio_3R"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/Repaso/Ejercicio_4R.cpp">
+			<Option target="Ejercicio_4R"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/Repaso/Ejercicio_5R.cpp">
+			<Option target="Ejercicio_5R"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/Repaso/Ejercicio_6R.cpp">
+			<Option target="Ejercicio_6R"/>
 		</Unit>
 		<Unit filename="C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

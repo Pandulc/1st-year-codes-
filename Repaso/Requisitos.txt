@@ -1,0 +1,6 @@
+Aplicacion: Discord
+Prioridad: 1
+Aplicacion: BeamMP Launcher
+Prioridad: 1
+Aplicacion: Steam
+Prioridad: 1

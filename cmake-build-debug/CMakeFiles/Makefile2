@@ -108,6 +108,9 @@ all: CMakeFiles/Ejercicio_1Colas.dir/all
 all: CMakeFiles/Ejercicio_2Colas.dir/all
 all: CMakeFiles/Ejercicio_1Pilas.dir/all
 all: CMakeFiles/Ejercicio_2Pilas.dir/all
+all: CMakeFiles/Ejercicio_4R.dir/all
+all: CMakeFiles/Ejercicio_5R.dir/all
+all: CMakeFiles/Ejercicio_6R.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -161,6 +164,9 @@ clean: CMakeFiles/Ejercicio_1Colas.dir/clean
 clean: CMakeFiles/Ejercicio_2Colas.dir/clean
 clean: CMakeFiles/Ejercicio_1Pilas.dir/clean
 clean: CMakeFiles/Ejercicio_2Pilas.dir/clean
+clean: CMakeFiles/Ejercicio_4R.dir/clean
+clean: CMakeFiles/Ejercicio_5R.dir/clean
+clean: CMakeFiles/Ejercicio_6R.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -404,7 +410,7 @@ CMakeFiles/Ejercicio_3Rec.dir/clean:
 CMakeFiles/Ejercicio_4Rec.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4Rec.dir\build.make CMakeFiles/Ejercicio_4Rec.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4Rec.dir\build.make CMakeFiles/Ejercicio_4Rec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=75,76 "Built target Ejercicio_4Rec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=77,78 "Built target Ejercicio_4Rec"
 .PHONY : CMakeFiles/Ejercicio_4Rec.dir/all
 
 # Build rule for subdir invocation for target.
@@ -560,7 +566,7 @@ CMakeFiles/Ejercicio_1C.dir/clean:
 CMakeFiles/Ejercicio_4listas.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4listas.dir\build.make CMakeFiles/Ejercicio_4listas.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4listas.dir\build.make CMakeFiles/Ejercicio_4listas.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=77,78 "Built target Ejercicio_4listas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=79,80 "Built target Ejercicio_4listas"
 .PHONY : CMakeFiles/Ejercicio_4listas.dir/all
 
 # Build rule for subdir invocation for target.
@@ -768,7 +774,7 @@ CMakeFiles/Ejercicio_4E.dir/clean:
 CMakeFiles/Ejercicio_5p.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5p.dir\build.make CMakeFiles/Ejercicio_5p.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5p.dir\build.make CMakeFiles/Ejercicio_5p.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=83,84 "Built target Ejercicio_5p"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=87,88 "Built target Ejercicio_5p"
 .PHONY : CMakeFiles/Ejercicio_5p.dir/all
 
 # Build rule for subdir invocation for target.
@@ -924,7 +930,7 @@ CMakeFiles/Ejercicio_1p.dir/clean:
 CMakeFiles/Ejercicio_4p.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4p.dir\build.make CMakeFiles/Ejercicio_4p.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4p.dir\build.make CMakeFiles/Ejercicio_4p.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=79,80 "Built target Ejercicio_4p"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=81,82 "Built target Ejercicio_4p"
 .PHONY : CMakeFiles/Ejercicio_4p.dir/all
 
 # Build rule for subdir invocation for target.
@@ -950,7 +956,7 @@ CMakeFiles/Ejercicio_4p.dir/clean:
 CMakeFiles/Ejercicio_6p.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_6p.dir\build.make CMakeFiles/Ejercicio_6p.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_6p.dir\build.make CMakeFiles/Ejercicio_6p.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=85,86 "Built target Ejercicio_6p"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=91,92 "Built target Ejercicio_6p"
 .PHONY : CMakeFiles/Ejercicio_6p.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1132,7 +1138,7 @@ CMakeFiles/Ejercicio_3R.dir/clean:
 CMakeFiles/Guillaumet_Gabriel_eje1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_eje1.dir\build.make CMakeFiles/Guillaumet_Gabriel_eje1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_eje1.dir\build.make CMakeFiles/Guillaumet_Gabriel_eje1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=87,88 "Built target Guillaumet_Gabriel_eje1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=93,94 "Built target Guillaumet_Gabriel_eje1"
 .PHONY : CMakeFiles/Guillaumet_Gabriel_eje1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1158,7 +1164,7 @@ CMakeFiles/Guillaumet_Gabriel_eje1.dir/clean:
 CMakeFiles/Guillaumet_Gabriel_eje2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_eje2.dir\build.make CMakeFiles/Guillaumet_Gabriel_eje2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_eje2.dir\build.make CMakeFiles/Guillaumet_Gabriel_eje2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=89,90 "Built target Guillaumet_Gabriel_eje2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=95,96 "Built target Guillaumet_Gabriel_eje2"
 .PHONY : CMakeFiles/Guillaumet_Gabriel_eje2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1184,7 +1190,7 @@ CMakeFiles/Guillaumet_Gabriel_eje2.dir/clean:
 CMakeFiles/Guillaumet_Gabriel_eje3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_eje3.dir\build.make CMakeFiles/Guillaumet_Gabriel_eje3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_eje3.dir\build.make CMakeFiles/Guillaumet_Gabriel_eje3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=91,92 "Built target Guillaumet_Gabriel_eje3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=97,98 "Built target Guillaumet_Gabriel_eje3"
 .PHONY : CMakeFiles/Guillaumet_Gabriel_eje3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1236,7 +1242,7 @@ CMakeFiles/Ejercicio_3listas_c.dir/clean:
 CMakeFiles/Ejercicio_5listas.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5listas.dir\build.make CMakeFiles/Ejercicio_5listas.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5listas.dir\build.make CMakeFiles/Ejercicio_5listas.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=81,82 "Built target Ejercicio_5listas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=85,86 "Built target Ejercicio_5listas"
 .PHONY : CMakeFiles/Ejercicio_5listas.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1358,6 +1364,84 @@ Ejercicio_2Pilas: CMakeFiles/Ejercicio_2Pilas.dir/rule
 CMakeFiles/Ejercicio_2Pilas.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_2Pilas.dir\build.make CMakeFiles/Ejercicio_2Pilas.dir/clean
 .PHONY : CMakeFiles/Ejercicio_2Pilas.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ejercicio_4R.dir
+
+# All Build rule for target.
+CMakeFiles/Ejercicio_4R.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4R.dir\build.make CMakeFiles/Ejercicio_4R.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4R.dir\build.make CMakeFiles/Ejercicio_4R.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=75,76 "Built target Ejercicio_4R"
+.PHONY : CMakeFiles/Ejercicio_4R.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ejercicio_4R.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Ejercicio_4R.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Ejercicio_4R.dir/rule
+
+# Convenience name for target.
+Ejercicio_4R: CMakeFiles/Ejercicio_4R.dir/rule
+.PHONY : Ejercicio_4R
+
+# clean rule for target.
+CMakeFiles/Ejercicio_4R.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4R.dir\build.make CMakeFiles/Ejercicio_4R.dir/clean
+.PHONY : CMakeFiles/Ejercicio_4R.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ejercicio_5R.dir
+
+# All Build rule for target.
+CMakeFiles/Ejercicio_5R.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5R.dir\build.make CMakeFiles/Ejercicio_5R.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5R.dir\build.make CMakeFiles/Ejercicio_5R.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=83,84 "Built target Ejercicio_5R"
+.PHONY : CMakeFiles/Ejercicio_5R.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ejercicio_5R.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Ejercicio_5R.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Ejercicio_5R.dir/rule
+
+# Convenience name for target.
+Ejercicio_5R: CMakeFiles/Ejercicio_5R.dir/rule
+.PHONY : Ejercicio_5R
+
+# clean rule for target.
+CMakeFiles/Ejercicio_5R.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5R.dir\build.make CMakeFiles/Ejercicio_5R.dir/clean
+.PHONY : CMakeFiles/Ejercicio_5R.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ejercicio_6R.dir
+
+# All Build rule for target.
+CMakeFiles/Ejercicio_6R.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_6R.dir\build.make CMakeFiles/Ejercicio_6R.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_6R.dir\build.make CMakeFiles/Ejercicio_6R.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=89,90 "Built target Ejercicio_6R"
+.PHONY : CMakeFiles/Ejercicio_6R.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ejercicio_6R.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Ejercicio_6R.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Ejercicio_6R.dir/rule
+
+# Convenience name for target.
+Ejercicio_6R: CMakeFiles/Ejercicio_6R.dir/rule
+.PHONY : Ejercicio_6R
+
+# clean rule for target.
+CMakeFiles/Ejercicio_6R.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_6R.dir\build.make CMakeFiles/Ejercicio_6R.dir/clean
+.PHONY : CMakeFiles/Ejercicio_6R.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

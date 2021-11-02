@@ -86,12 +86,24 @@ void show_list (stack<Product> s){
 
 stack<Product> stock_discount (stack<Product> s) {
 
-    struct Product aux_s;
+    stack<Product> aux_s;
     int quantity;
+    int code;
 
+    cout<<"Ingrese el codigo de producto a descontar stock"<<endl;
+    cin>>code;
     cout<<"Ingrese la cantidad de stock a descontar"<<endl;
     cin>>quantity;
-    s.top().quantity = s.top().quantity - quantity;
+
+    while(!s.empty()){
+        aux_s.push(s.top());
+        if(aux_s.top().code == code){
+            aux_s.top().quantity = aux_s.top().quantity - quantity;
+        }
+        s.pop();
+    }
+
+    s = aux_s;
 
     return s;
 
@@ -99,12 +111,24 @@ stack<Product> stock_discount (stack<Product> s) {
 
 stack<Product> stock_add (stack<Product> s) {
 
-    struct Product aux_s;
+    stack<Product> aux_s;
     int quantity;
+    int code;
 
+    cout<<"Ingrese el codigo de producto a agregar stock"<<endl;
+    cin>>code;
     cout<<"Ingrese la cantidad de stock a agregar"<<endl;
     cin>>quantity;
-    s.top().quantity = s.top().quantity + quantity;
+
+    while(!s.empty()){
+        aux_s.push(s.top());
+        if(aux_s.top().code == code){
+            aux_s.top().quantity = aux_s.top().quantity + quantity;
+        }
+        s.pop();
+    }
+
+    s = aux_s;
 
     return s;
 
