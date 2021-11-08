@@ -1,0 +1,38 @@
+Listado de Productos sin Stock
+.-----------------------------------------.
+Codigo: 6
+Producto: Short
+Talle: L
+Precio Lista: 1400
+Precio Publico: 2240
+Stock: 0
+Vendido: 0
+.-----------------------------------------.
+.-----------------------------------------.
+Codigo: 1
+Producto: Musculosa
+Talle: S
+Precio Lista: 200
+Precio Publico: 320
+Stock: 0
+Vendido: 0
+.-----------------------------------------.
+Listado de Productos sin Stock
+.-----------------------------------------.
+Codigo: 6
+Producto: Short
+Talle: L
+Precio Lista: 1400
+Precio Publico: 2240
+Stock: 0
+Vendido: 0
+.-----------------------------------------.
+.-----------------------------------------.
+Codigo: 1
+Producto: Musculosa
+Talle: S
+Precio Lista: 200
+Precio Publico: 320
+Stock: 0
+Vendido: 0
+.-----------------------------------------.
