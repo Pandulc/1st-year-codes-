@@ -84,13 +84,13 @@ int sum_amount (Bill * s,int q){
     return a;
 }
 
-void save_sales(Bill * s,int q){
+void save_sales(Bill *s, int q) {
     ofstream sales;
-    sales.open("Facturas_Dia.txt",ios::app);
-    for(int ii = 0; ii < q; ii++){
-        sales<<"Numero de Venta: "<<s[ii].number<<endl;
-        sales<<"Fecha: "<<s[ii].date<<endl;
-        sales<<"Monto: "<<s[ii].amount<<endl;
+    sales.open("Facturas_Dia.txt", ios::app);
+    for (int ii = 0; ii < q; ii++) {
+        sales << "Numero de Venta: " << s[ii].number << endl;
+        sales << "Fecha: " << s[ii].date << endl;
+        sales << "Monto: " << s[ii].amount << endl;
     }
     sales.close();
 }

@@ -1,10 +1,11 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+
 #define TAM  3
 using namespace std;
 
-struct Celular{
+struct Celular {
     int codigo;
     string marca;
     float precio_lista;
@@ -12,21 +13,26 @@ struct Celular{
     int stock;
 };
 
-int menu ();
-void carga_datos (Celular *);
-void mostrar_listado_completo (Celular *);
-void mostrar_listado_noStock (Celular *);
-void calcula_precio (Celular *);
-void ordena_porPrecio (Celular *);
+int menu();
 
-int main(){
+void carga_datos(Celular *);
+
+void mostrar_listado_completo(Celular *);
+
+void mostrar_listado_noStock(Celular *);
+
+void calcula_precio(Celular *);
+
+void ordena_porPrecio(Celular *);
+
+int main() {
 
     int opcion = 0;
     Celular celulares[TAM];
     carga_datos(celulares);
-    do{
+    do {
         opcion = menu();
-        switch(opcion){
+        switch (opcion) {
             case 1:
                 mostrar_listado_completo(celulares);
                 break;
@@ -40,29 +46,29 @@ int main(){
                 ordena_porPrecio(celulares);
                 break;
         }
-    }while(opcion != 0);
-
-
+    } while (opcion != 0);
 
 
     return 0;
 }
 
-int menu (){
+int menu() {
     int op = 0;
 
-    cout<<"Ingrese la opcion a realizar"<<endl;
-    cout<<"1. mostrar el listado completo de celulares."<<endl;
-    cout<<"2. mostrar el listado completo de celulares que no hay Stock. Y generar un archivo para enviar al proveedor."<<endl;
-    cout<<"3. Calcular precio al publico."<<endl;
-    cout<<"4. Ordenar por precio al publico."<<endl;
-    cout<<"0. Salir."<<endl;
-    cin>>op;
+    cout << "Ingrese la opcion a realizar" << endl;
+    cout << "1. mostrar el listado completo de celulares." << endl;
+    cout
+            << "2. mostrar el listado completo de celulares que no hay Stock. Y generar un archivo para enviar al proveedor."
+            << endl;
+    cout << "3. Calcular precio al publico." << endl;
+    cout << "4. Ordenar por precio al publico." << endl;
+    cout << "0. Salir." << endl;
+    cin >> op;
 
     return op;
 }
 
-void carga_datos(Celular * c){
+void carga_datos(Celular *c) {
 
     c[0].codigo = 1;
     c[0].marca = "Samsung";
@@ -81,61 +87,61 @@ void carga_datos(Celular * c){
     c[2].stock = 4;
 }
 
-void mostrar_listado_completo (Celular * c){
+void mostrar_listado_completo(Celular *c) {
 
-    cout<<"Listado Completo"<<endl;
-    for(int ii = 0; ii < TAM; ii++){
-        cout<<"------------------------------------------"<<endl;
-        cout<<"Codigo: "<<c[ii].codigo<<endl;
-        cout<<"Marca: "<<c[ii].marca<<endl;
-        cout<<"Precio de Lista: "<<c[ii].precio_lista<<endl;
-        cout<<"Precio al Publico: "<<c[ii].precio_publico<<endl;
-        cout<<"Stock: "<<c[ii].stock<<endl;
-        cout<<"------------------------------------------"<<endl;
+    cout << "Listado Completo" << endl;
+    for (int ii = 0; ii < TAM; ii++) {
+        cout << "------------------------------------------" << endl;
+        cout << "Codigo: " << c[ii].codigo << endl;
+        cout << "Marca: " << c[ii].marca << endl;
+        cout << "Precio de Lista: " << c[ii].precio_lista << endl;
+        cout << "Precio al Publico: " << c[ii].precio_publico << endl;
+        cout << "Stock: " << c[ii].stock << endl;
+        cout << "------------------------------------------" << endl;
     }
 }
 
-void mostrar_listado_noStock (Celular * c){
+void mostrar_listado_noStock(Celular *c) {
 
-    cout<<"Listado de Celulares sin Stock"<<endl;
-    for(int ii = 0; ii < TAM; ii++){
-        if(c[ii].stock == 0){
+    cout << "Listado de Celulares sin Stock" << endl;
+    for (int ii = 0; ii < TAM; ii++) {
+        if (c[ii].stock == 0) {
             ofstream celulares;
-            celulares.open("Listado_Celulares_noStock.txt",ios::app);
-            cout<<"------------------------------------------"<<endl;
-            celulares<<"------------------------------------------"<<endl;
-            cout<<"Codigo: "<<c[ii].codigo<<endl;
-            celulares<<"Codigo: "<<c[ii].codigo<<endl;
-            cout<<"Marca: "<<c[ii].marca<<endl;
-            celulares<<"Marca: "<<c[ii].marca<<endl;
-            cout<<"Precio de Lista: "<<c[ii].precio_lista<<endl;
-            celulares<<"Precio de Lista: "<<c[ii].precio_lista<<endl;
-            cout<<"Precio al Publico: "<<c[ii].precio_publico<<endl;
-            celulares<<"Precio al Publico: "<<c[ii].precio_publico<<endl;
-            cout<<"Stock: "<<c[ii].stock<<endl;
-            celulares<<"Stock: "<<c[ii].stock<<endl;
-            cout<<"------------------------------------------"<<endl;
-            celulares<<"------------------------------------------"<<endl;
+            celulares.open("Listado_Celulares_noStock.txt", ios::app);
+            cout << "------------------------------------------" << endl;
+            celulares << "------------------------------------------" << endl;
+            cout << "Codigo: " << c[ii].codigo << endl;
+            celulares << "Codigo: " << c[ii].codigo << endl;
+            cout << "Marca: " << c[ii].marca << endl;
+            celulares << "Marca: " << c[ii].marca << endl;
+            cout << "Precio de Lista: " << c[ii].precio_lista << endl;
+            celulares << "Precio de Lista: " << c[ii].precio_lista << endl;
+            cout << "Precio al Publico: " << c[ii].precio_publico << endl;
+            celulares << "Precio al Publico: " << c[ii].precio_publico << endl;
+            cout << "Stock: " << c[ii].stock << endl;
+            celulares << "Stock: " << c[ii].stock << endl;
+            cout << "------------------------------------------" << endl;
+            celulares << "------------------------------------------" << endl;
         }
     }
 }
 
-void calcula_precio(Celular * c){
+void calcula_precio(Celular *c) {
     for (int i = 0; i < TAM; ++i) {
-        c[i].precio_publico = ((c[i].precio_lista*30)/100)+c[i].precio_lista;
+        c[i].precio_publico = ((c[i].precio_lista * 30) / 100) + c[i].precio_lista;
     }
 }
 
-void ordena_porPrecio (Celular * c){
-    Celular * tmp = nullptr;
-    Celular ** tmp2 = nullptr;
+void ordena_porPrecio(Celular *c) {
+    Celular *tmp = nullptr;
+    Celular **tmp2 = nullptr;
     float precio = 0;
     for (int i = 0; i < TAM; ++i) {
-        if(i == 0){
+        if (i == 0) {
             precio = c[i].precio_publico;
             tmp = &c[i];
         }
-        if(precio < c[i].precio_publico){
+        if (precio < c[i].precio_publico) {
             tmp2 = &c[i];
             c[i] = *tmp;
             tmp = &tmp2;//Tengo algun error que no logro entender, lo vemos la clase que viene jajaja

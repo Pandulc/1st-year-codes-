@@ -1,21 +1,26 @@
 #include <iostream>
 #include <stack>
+
 using namespace std;
 
-int menu ();
-stack<int> load (stack<int>);
-void show (stack<int>);
-stack<int> delete_element (stack<int>);
-stack<int> insert (stack<int>);
+int menu();
 
-int main (){
+stack<int> load(stack<int>);
+
+void show(stack<int>);
+
+stack<int> delete_element(stack<int>);
+
+stack<int> insert(stack<int>);
+
+int main() {
 
     int option;
     stack<int> stack;
 
-    do{
+    do {
         option = menu();
-        switch(option){
+        switch (option) {
             case 0:
                 break;
             case 1:
@@ -31,46 +36,46 @@ int main (){
                 stack = insert(stack);
                 break;
             default:
-                cout<<"Ingrese una opcion valida"<<endl;
+                cout << "Ingrese una opcion valida" << endl;
         }
-    }while(option != 0);
+    } while (option != 0);
 
     return 0;
 }
 
-int menu (){
+int menu() {
 
     int option = 0;
-    cout<<"Ingrese la opcion a realizar"<<endl;
-    cout<<"1. Cargar datos"<<endl;
-    cout<<"2. Mostrar listado de datos"<<endl;
-    cout<<"3. Borrar un elemento de la pila"<<endl;
-    cout<<"4. Agregar un elemento a la pila"<<endl;
-    cout<<"0. Salir"<<endl;
-    cin>>option;
+    cout << "Ingrese la opcion a realizar" << endl;
+    cout << "1. Cargar datos" << endl;
+    cout << "2. Mostrar listado de datos" << endl;
+    cout << "3. Borrar un elemento de la pila" << endl;
+    cout << "4. Agregar un elemento a la pila" << endl;
+    cout << "0. Salir" << endl;
+    cin >> option;
     return option;
 
 }
 
-stack<int> load (stack<int> s){
+stack<int> load(stack<int> s) {
 
     int number;
-    cout<<"Ingrese los valores (O para salir)"<<endl;
+    cout << "Ingrese los valores (O para salir)" << endl;
     do {
-        cin>>number;
-        if(number != 0){
+        cin >> number;
+        if (number != 0) {
             s.push(number);
         }
 
-    }while(number != 0);
+    } while (number != 0);
     return s;
 
 }
 
-void show (stack<int> s){
+void show(stack<int> s) {
 
     stack<int> aux;
-    while(!s.empty()){
+    while (!s.empty()) {
 
         cout << s.top() << " - ";
         aux.push(s.top());
@@ -78,16 +83,16 @@ void show (stack<int> s){
 
     }
     s = aux;
-    cout<<endl;
+    cout << endl;
 
 }
 
-stack<int> delete_element (stack<int> s){
+stack<int> delete_element(stack<int> s) {
 
     int quantity;
 
-    cout<<"Ingrese la cantidad de elementos a borrar"<<endl;
-    cin>>quantity;
+    cout << "Ingrese la cantidad de elementos a borrar" << endl;
+    cin >> quantity;
     for (int i = 0; i < quantity; ++i) {
         s.pop();
     }
@@ -95,11 +100,11 @@ stack<int> delete_element (stack<int> s){
 
 }
 
-stack<int> insert (stack<int> s){
+stack<int> insert(stack<int> s) {
 
     int number;
-    cout<<"Ingrese el dato a agregar en la cola"<<endl;
-    cin>>number;
+    cout << "Ingrese el dato a agregar en la cola" << endl;
+    cin >> number;
     s.push(number);
     return s;
 

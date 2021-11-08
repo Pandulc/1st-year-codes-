@@ -5,7 +5,7 @@
 
 using namespace std;
 
-struct Stock{
+struct Stock {
     int code;
     string name;
     char size;
@@ -15,7 +15,7 @@ struct Stock{
     int sold;
 
 };
-struct Sales{
+struct Sales {
 
     string name;
     char size;
@@ -25,21 +25,23 @@ struct Sales{
 
 };
 
-int menu ();
-LinkedList<Stock> load (LinkedList<Stock>);
-LinkedList<Sales> sale (LinkedList<Stock>);
+int menu();
+
+LinkedList<Stock> load(LinkedList<Stock>);
+
+LinkedList<Sales> sale(LinkedList<Stock>);
 
 
-int main (){
+int main() {
 
     int option = 0;
     LinkedList<Stock> stock;
     LinkedList<Sales> sales;
     stock = load(stock);
 
-    do{
+    do {
         option = menu();
-        switch(option){
+        switch (option) {
             case 0:
                 break;
             case 1:
@@ -50,29 +52,28 @@ int main (){
                 break;
 
             default:
-                cout<<"Ingrese una opcion valida"<<endl;
+                cout << "Ingrese una opcion valida" << endl;
         }
-    }while(option != 0);
-
+    } while (option != 0);
 
 
     return 0;
 }
 
-int menu (){
+int menu() {
     int option = 0;
-    cout<<"Ingrese la opcion a realizar"<<endl;
-    cout<<"1. Registrar venta"<<endl;
-    cout<<"2. Mostrar listado con las facturas registradas"<<endl;
-    cout<<"3. Calcular la recaudacion del dia y la ganancia"<<endl;
-    cout<<"4. Mostrar listado de productos por talle"<<endl;
-    cout<<"5. Generar archivo con los productos sin Stock"<<endl;
-    cout<<"0. Salir"<<endl;
-    cin>>option;
+    cout << "Ingrese la opcion a realizar" << endl;
+    cout << "1. Registrar venta" << endl;
+    cout << "2. Mostrar listado con las facturas registradas" << endl;
+    cout << "3. Calcular la recaudacion del dia y la ganancia" << endl;
+    cout << "4. Mostrar listado de productos por talle" << endl;
+    cout << "5. Generar archivo con los productos sin Stock" << endl;
+    cout << "0. Salir" << endl;
+    cin >> option;
     return option;
 }
 
-LinkedList<Stock> load (LinkedList<Stock> s){
+LinkedList<Stock> load(LinkedList<Stock> s) {
     struct Stock aux_s;
     aux_s = {1, "Musculosa", 'S', 200, 0, 0, 0};
     s.insert(0, aux_s);
@@ -88,13 +89,13 @@ LinkedList<Stock> load (LinkedList<Stock> s){
     s.insert(0, aux_s);
     for (int i = 0; i < s.size(); ++i) {
         aux_s = s.get(i);
-        aux_s.public_price = ((aux_s.list_price * 60 )/100) + aux_s.list_price;
-        s.replace(i,aux_s);
+        aux_s.public_price = ((aux_s.list_price * 60) / 100) + aux_s.list_price;
+        s.replace(i, aux_s);
     }
     return s;
 }
 
-LinkedList<Sales> sale (LinkedList<Stock> stock){
+LinkedList<Sales> sale(LinkedList<Stock> stock) {
 
     LinkedList<Sales> sales;
 
@@ -109,44 +110,40 @@ LinkedList<Sales> sale (LinkedList<Stock> stock){
 
     for (int i = 0; i < stock.size(); ++i) {
         aux_stock[i] = stock.get(i);
-        if(aux_stock[i].stock != 0){
-            cout<<"------------------------------------"<<endl;
-            cout<<"Codigo: "<<aux_stock[i].code<<endl;
-            cout<<"Nombre: "<<aux_stock[i].name<<endl;
-            cout<<"Talle: "<<aux_stock[i].size<<endl;
-            cout<<"Precio: "<<aux_stock[i].public_price<<endl;
-            cout<<"Stock: "<<aux_stock[i].stock<<endl;
-            cout<<"------------------------------------"<<endl;
+        if (aux_stock[i].stock != 0) {
+            cout << "------------------------------------" << endl;
+            cout << "Codigo: " << aux_stock[i].code << endl;
+            cout << "Nombre: " << aux_stock[i].name << endl;
+            cout << "Talle: " << aux_stock[i].size << endl;
+            cout << "Precio: " << aux_stock[i].public_price << endl;
+            cout << "Stock: " << aux_stock[i].stock << endl;
+            cout << "------------------------------------" << endl;
         }
     }
-    do{
-        cout<<"Ingrese el codigo del producto a llevar"<<endl;
-        cin>>aux_code;
-        cout<<"Ingrese el talle"<<endl;
-        cin>>aux_size;
+    do {
+        cout << "Ingrese el codigo del producto a llevar" << endl;
+        cin >> aux_code;
+        cout << "Ingrese el talle" << endl;
+        cin >> aux_size;
         for (int i = 0; i < stock.size(); ++i) {
-            cout<<"------------------------------------"<<endl;
-            cout<<"Codigo: "<<aux_stock[i].code<<endl;
-            cout<<"Nombre: "<<aux_stock[i].name<<endl;
-            cout<<"Talle: "<<aux_stock[i].size<<endl;
-            cout<<"Precio: "<<aux_stock[i].public_price<<endl;
-            cout<<"Stock: "<<aux_stock[i].stock<<endl;
-            cout<<"------------------------------------"<<endl;
-            if(aux_stock[i].code == aux_code && aux_stock[i].size == aux_size){
+            cout << "------------------------------------" << endl;
+            cout << "Codigo: " << aux_stock[i].code << endl;
+            cout << "Nombre: " << aux_stock[i].name << endl;
+            cout << "Talle: " << aux_stock[i].size << endl;
+            cout << "Precio: " << aux_stock[i].public_price << endl;
+            cout << "Stock: " << aux_stock[i].stock << endl;
+            cout << "------------------------------------" << endl;
+            if (aux_stock[i].code == aux_code && aux_stock[i].size == aux_size) {
                 aux_sales.name = aux_stock[i].name;
                 aux_sales.size = aux_size;
-                cout<<"Ingrese las unidades a llevar"<<endl;
-                cin>>units;
+                cout << "Ingrese las unidades a llevar" << endl;
+                cin >> units;
                 aux_sales.units = units;
                 aux_sales.amount = units * aux_stock[i].public_price;
                 aux_sales.total = aux_sales.total + aux_sales.amount;
-                sales.insert(0,aux_sales);
+                sales.insert(0, aux_sales);
             }
         }
 
-
-
-
-
-    }while(option != 0);
+    } while (option != 0);
 }

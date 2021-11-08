@@ -68,15 +68,15 @@ include CMakeFiles/Ejercicio_1MD.dir/flags.make
 CMakeFiles/Ejercicio_1MD.dir/Memoria_Dinamica/Ejercicio_1MD.cpp.obj: CMakeFiles/Ejercicio_1MD.dir/flags.make
 CMakeFiles/Ejercicio_1MD.dir/Memoria_Dinamica/Ejercicio_1MD.cpp.obj: ../Memoria_Dinamica/Ejercicio_1MD.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio_1MD.dir/Memoria_Dinamica/Ejercicio_1MD.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio_1MD.dir\Memoria_Dinamica\Ejercicio_1MD.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Memoria_Dinamica\Ejercicio_1MD.cpp"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio_1MD.dir\Memoria_Dinamica\Ejercicio_1MD.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Memoria_Dinamica\Ejercicio_1MD.cpp"
 
 CMakeFiles/Ejercicio_1MD.dir/Memoria_Dinamica/Ejercicio_1MD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio_1MD.dir/Memoria_Dinamica/Ejercicio_1MD.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Memoria_Dinamica\Ejercicio_1MD.cpp" > CMakeFiles\Ejercicio_1MD.dir\Memoria_Dinamica\Ejercicio_1MD.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Memoria_Dinamica\Ejercicio_1MD.cpp" > CMakeFiles\Ejercicio_1MD.dir\Memoria_Dinamica\Ejercicio_1MD.cpp.i
 
 CMakeFiles/Ejercicio_1MD.dir/Memoria_Dinamica/Ejercicio_1MD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio_1MD.dir/Memoria_Dinamica/Ejercicio_1MD.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Memoria_Dinamica\Ejercicio_1MD.cpp" -o CMakeFiles\Ejercicio_1MD.dir\Memoria_Dinamica\Ejercicio_1MD.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Memoria_Dinamica\Ejercicio_1MD.cpp" -o CMakeFiles\Ejercicio_1MD.dir\Memoria_Dinamica\Ejercicio_1MD.cpp.s
 
 # Object files for target Ejercicio_1MD
 Ejercicio_1MD_OBJECTS = \

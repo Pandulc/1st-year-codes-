@@ -1,59 +1,70 @@
-//1. Crear en código c++ una clase Vehículo y luego un vector de dos objetos.
+//1. Crear en cï¿½digo c++ una clase Vehï¿½culo y luego un vector de dos objetos.
 
 #include <string>
+
 using namespace std;
+
 //Definicion de la clase
-class vehicle{
+class vehicle {
 private:
-	string type;
-	int capacity;
-	string enrollment;
-	string colour;
+    string type;
+    int capacity;
+    string enrollment;
+    string colour;
 public:
-	vehicle();
-	void set_type (string);
-	string get_type();
-	void set_capacity (int);
-	int get_capacity();
-	void set_enrollment (string);
-	string get_enrollment();
-	void set_colour (string);
-	string get_colour();
-	
+    vehicle();
+
+    void set_type(string);
+
+    string get_type();
+
+    void set_capacity(int);
+
+    int get_capacity();
+
+    void set_enrollment(string);
+
+    string get_enrollment();
+
+    void set_colour(string);
+
+    string get_colour();
+
 };
 
 //Definicion de las funciones
-vehicle::vehicle(){
-}
-void vehicle::set_type(string t){
-	type=t;
+vehicle::vehicle() {
 }
 
-string vehicle::get_type(){
-	return type;
+void vehicle::set_type(string t) {
+    type = t;
 }
 
-void vehicle::set_capacity(int c){
-	capacity=c;
+string vehicle::get_type() {
+    return type;
 }
 
-int vehicle::get_capacity(){
-	return capacity;
+void vehicle::set_capacity(int c) {
+    capacity = c;
 }
 
-void vehicle::set_enrollment(string e){
-	enrollment=e;
+int vehicle::get_capacity() {
+    return capacity;
 }
 
-string vehicle::get_enrollment(){
-	return enrollment;
+void vehicle::set_enrollment(string e) {
+    enrollment = e;
 }
 
-void vehicle::set_colour(string c){
-	colour=c;
+string vehicle::get_enrollment() {
+    return enrollment;
 }
 
-string vehicle::get_colour(){
-	return colour;
+void vehicle::set_colour(string c) {
+    colour = c;
+}
+
+string vehicle::get_colour() {
+    return colour;
 }
 

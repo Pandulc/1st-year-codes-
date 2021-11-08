@@ -1,4 +1,5 @@
 #include <string>
+
 #ifndef PRACTICO_EJERCICIO_3_H
 #define PRACTICO_EJERCICIO_3_H
 #define TAM 3
@@ -14,47 +15,51 @@ private:
     int size;
 public:
     Product();
-    void write (Product []);
+
+    void write(Product []);
+
     void read();
 };
+
 Product::Product() {
 
 }
 
-void Product::write(Product * pr) {
+void Product::write(Product *pr) {
     int ii = 0;
 
-    for(ii = 0; ii < TAM ; ii++){
-        cout<<"Ingrese el nombre del producto"<<endl;
-        getline(cin,pr[ii].name,'.');
-        cout<<"Ingrese la marca del producto"<<endl;
-        getline(cin,pr[ii].mark,'.');
-        cout<<"Ingrese el precio del producto"<<endl;
-        cin>>pr[ii].price;
-        cout<<"Ingrese la fecha de caducidad del producto"<<endl;
-        getline(cin,pr[ii].date,'.');
-        cout<<"Ingrese el tamanio del producto"<<endl;
-        cin>>pr[ii].size;
+    for (ii = 0; ii < TAM; ii++) {
+        cout << "Ingrese el nombre del producto" << endl;
+        getline(cin, pr[ii].name, '.');
+        cout << "Ingrese la marca del producto" << endl;
+        getline(cin, pr[ii].mark, '.');
+        cout << "Ingrese el precio del producto" << endl;
+        cin >> pr[ii].price;
+        cout << "Ingrese la fecha de caducidad del producto" << endl;
+        getline(cin, pr[ii].date, '.');
+        cout << "Ingrese el tamanio del producto" << endl;
+        cin >> pr[ii].size;
     }
     ofstream product;
-    product.open("Datos_Producto_Clases.txt",ios::app);
-    for(ii = 0; ii < TAM; ii++){
-        product<<"Datos del Producto "<<ii+1<<endl;
-        product<<"Nombre: "<<pr[ii].name<<endl;
-        product<<"Marca: "<<pr[ii].mark<<endl;
-        product<<"Precio: "<<pr[ii].price<<endl;
-        product<<"Fecha de Caducidad: "<<pr[ii].date<<endl;
-        product<<"Tamanio: "<<pr[ii].size<<endl;
+    product.open("Datos_Producto_Clases.txt", ios::app);
+    for (ii = 0; ii < TAM; ii++) {
+        product << "Datos del Producto " << ii + 1 << endl;
+        product << "Nombre: " << pr[ii].name << endl;
+        product << "Marca: " << pr[ii].mark << endl;
+        product << "Precio: " << pr[ii].price << endl;
+        product << "Fecha de Caducidad: " << pr[ii].date << endl;
+        product << "Tamanio: " << pr[ii].size << endl;
     }
     product.close();
 }
+
 void Product::read() {
     string message = " ";
     ifstream product;
-    product.open("Datos_Producto_Estructura.txt",ios::app);
-    while(!product.eof()){
+    product.open("Datos_Producto_Estructura.txt", ios::app);
+    while (!product.eof()) {
         getline(product, message);
-        cout<<message<<endl;
+        cout << message << endl;
     }
     product.close();
 }

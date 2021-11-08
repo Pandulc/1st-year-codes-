@@ -68,15 +68,15 @@ include CMakeFiles/Ejercicio_1Rec.dir/flags.make
 CMakeFiles/Ejercicio_1Rec.dir/Recursividad/Ejercicio_1Rec.cpp.obj: CMakeFiles/Ejercicio_1Rec.dir/flags.make
 CMakeFiles/Ejercicio_1Rec.dir/Recursividad/Ejercicio_1Rec.cpp.obj: ../Recursividad/Ejercicio_1Rec.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio_1Rec.dir/Recursividad/Ejercicio_1Rec.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio_1Rec.dir\Recursividad\Ejercicio_1Rec.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Recursividad\Ejercicio_1Rec.cpp"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio_1Rec.dir\Recursividad\Ejercicio_1Rec.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Recursividad\Ejercicio_1Rec.cpp"
 
 CMakeFiles/Ejercicio_1Rec.dir/Recursividad/Ejercicio_1Rec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio_1Rec.dir/Recursividad/Ejercicio_1Rec.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Recursividad\Ejercicio_1Rec.cpp" > CMakeFiles\Ejercicio_1Rec.dir\Recursividad\Ejercicio_1Rec.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Recursividad\Ejercicio_1Rec.cpp" > CMakeFiles\Ejercicio_1Rec.dir\Recursividad\Ejercicio_1Rec.cpp.i
 
 CMakeFiles/Ejercicio_1Rec.dir/Recursividad/Ejercicio_1Rec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio_1Rec.dir/Recursividad/Ejercicio_1Rec.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Recursividad\Ejercicio_1Rec.cpp" -o CMakeFiles\Ejercicio_1Rec.dir\Recursividad\Ejercicio_1Rec.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Recursividad\Ejercicio_1Rec.cpp" -o CMakeFiles\Ejercicio_1Rec.dir\Recursividad\Ejercicio_1Rec.cpp.s
 
 # Object files for target Ejercicio_1Rec
 Ejercicio_1Rec_OBJECTS = \

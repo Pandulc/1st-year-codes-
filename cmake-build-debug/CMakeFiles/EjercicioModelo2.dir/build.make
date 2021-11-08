@@ -68,15 +68,15 @@ include CMakeFiles/EjercicioModelo2.dir/flags.make
 CMakeFiles/EjercicioModelo2.dir/Repaso/EjercicioModelo2_Parcial1.cpp.obj: CMakeFiles/EjercicioModelo2.dir/flags.make
 CMakeFiles/EjercicioModelo2.dir/Repaso/EjercicioModelo2_Parcial1.cpp.obj: ../Repaso/EjercicioModelo2_Parcial1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EjercicioModelo2.dir/Repaso/EjercicioModelo2_Parcial1.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\EjercicioModelo2.dir\Repaso\EjercicioModelo2_Parcial1.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\EjercicioModelo2_Parcial1.cpp"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\EjercicioModelo2.dir\Repaso\EjercicioModelo2_Parcial1.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\EjercicioModelo2_Parcial1.cpp"
 
 CMakeFiles/EjercicioModelo2.dir/Repaso/EjercicioModelo2_Parcial1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EjercicioModelo2.dir/Repaso/EjercicioModelo2_Parcial1.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\EjercicioModelo2_Parcial1.cpp" > CMakeFiles\EjercicioModelo2.dir\Repaso\EjercicioModelo2_Parcial1.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\EjercicioModelo2_Parcial1.cpp" > CMakeFiles\EjercicioModelo2.dir\Repaso\EjercicioModelo2_Parcial1.cpp.i
 
 CMakeFiles/EjercicioModelo2.dir/Repaso/EjercicioModelo2_Parcial1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EjercicioModelo2.dir/Repaso/EjercicioModelo2_Parcial1.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\EjercicioModelo2_Parcial1.cpp" -o CMakeFiles\EjercicioModelo2.dir\Repaso\EjercicioModelo2_Parcial1.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\EjercicioModelo2_Parcial1.cpp" -o CMakeFiles\EjercicioModelo2.dir\Repaso\EjercicioModelo2_Parcial1.cpp.s
 
 # Object files for target EjercicioModelo2
 EjercicioModelo2_OBJECTS = \

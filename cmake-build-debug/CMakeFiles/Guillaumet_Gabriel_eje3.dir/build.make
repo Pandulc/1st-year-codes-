@@ -68,15 +68,15 @@ include CMakeFiles/Guillaumet_Gabriel_eje3.dir/flags.make
 CMakeFiles/Guillaumet_Gabriel_eje3.dir/Examenes/Guillaumet_Gabriel_eje3.cpp.obj: CMakeFiles/Guillaumet_Gabriel_eje3.dir/flags.make
 CMakeFiles/Guillaumet_Gabriel_eje3.dir/Examenes/Guillaumet_Gabriel_eje3.cpp.obj: ../Examenes/Guillaumet_Gabriel_eje3.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Guillaumet_Gabriel_eje3.dir/Examenes/Guillaumet_Gabriel_eje3.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Guillaumet_Gabriel_eje3.dir\Examenes\Guillaumet_Gabriel_eje3.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Examenes\Guillaumet_Gabriel_eje3.cpp"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Guillaumet_Gabriel_eje3.dir\Examenes\Guillaumet_Gabriel_eje3.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Examenes\Guillaumet_Gabriel_eje3.cpp"
 
 CMakeFiles/Guillaumet_Gabriel_eje3.dir/Examenes/Guillaumet_Gabriel_eje3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Guillaumet_Gabriel_eje3.dir/Examenes/Guillaumet_Gabriel_eje3.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Examenes\Guillaumet_Gabriel_eje3.cpp" > CMakeFiles\Guillaumet_Gabriel_eje3.dir\Examenes\Guillaumet_Gabriel_eje3.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Examenes\Guillaumet_Gabriel_eje3.cpp" > CMakeFiles\Guillaumet_Gabriel_eje3.dir\Examenes\Guillaumet_Gabriel_eje3.cpp.i
 
 CMakeFiles/Guillaumet_Gabriel_eje3.dir/Examenes/Guillaumet_Gabriel_eje3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Guillaumet_Gabriel_eje3.dir/Examenes/Guillaumet_Gabriel_eje3.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Examenes\Guillaumet_Gabriel_eje3.cpp" -o CMakeFiles\Guillaumet_Gabriel_eje3.dir\Examenes\Guillaumet_Gabriel_eje3.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Examenes\Guillaumet_Gabriel_eje3.cpp" -o CMakeFiles\Guillaumet_Gabriel_eje3.dir\Examenes\Guillaumet_Gabriel_eje3.cpp.s
 
 # Object files for target Guillaumet_Gabriel_eje3
 Guillaumet_Gabriel_eje3_OBJECTS = \

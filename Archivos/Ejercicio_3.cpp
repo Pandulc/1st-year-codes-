@@ -6,12 +6,12 @@ using namespace std;
 
 int menu();
 
-int main(){
+int main() {
     Product product[TAM];
     int option = 0;
-    do{
+    do {
         option = menu();
-        switch(option){
+        switch (option) {
             case 1:
                 product->write(product);
                 break;
@@ -19,19 +19,19 @@ int main(){
                 product->read();
                 break;
             default:
-                cout<<"Ingrese una opcion valida"<<endl;
+                cout << "Ingrese una opcion valida" << endl;
                 break;
         }
-    }while(option != 0);
+    } while (option != 0);
 
 }
 
-int menu(){
+int menu() {
     int op = 0;
-    cout<<"Ingrese la opcion a realizar"<<endl;
-    cout<<"1. Cargar lista de productos en el archivo"<<endl;
-    cout<<"2. Mostrar la lista de productos"<<endl;
-    cout<<"0. Salir"<<endl;
-    cin>>op;
+    cout << "Ingrese la opcion a realizar" << endl;
+    cout << "1. Cargar lista de productos en el archivo" << endl;
+    cout << "2. Mostrar la lista de productos" << endl;
+    cout << "0. Salir" << endl;
+    cin >> op;
     return op;
 }

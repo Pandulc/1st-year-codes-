@@ -68,15 +68,15 @@ include CMakeFiles/Ejercicio_1E.dir/flags.make
 CMakeFiles/Ejercicio_1E.dir/Estructuras/Ejercicio_1E.cpp.obj: CMakeFiles/Ejercicio_1E.dir/flags.make
 CMakeFiles/Ejercicio_1E.dir/Estructuras/Ejercicio_1E.cpp.obj: ../Estructuras/Ejercicio_1E.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio_1E.dir/Estructuras/Ejercicio_1E.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio_1E.dir\Estructuras\Ejercicio_1E.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Estructuras\Ejercicio_1E.cpp"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio_1E.dir\Estructuras\Ejercicio_1E.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Estructuras\Ejercicio_1E.cpp"
 
 CMakeFiles/Ejercicio_1E.dir/Estructuras/Ejercicio_1E.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio_1E.dir/Estructuras/Ejercicio_1E.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Estructuras\Ejercicio_1E.cpp" > CMakeFiles\Ejercicio_1E.dir\Estructuras\Ejercicio_1E.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Estructuras\Ejercicio_1E.cpp" > CMakeFiles\Ejercicio_1E.dir\Estructuras\Ejercicio_1E.cpp.i
 
 CMakeFiles/Ejercicio_1E.dir/Estructuras/Ejercicio_1E.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio_1E.dir/Estructuras/Ejercicio_1E.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Estructuras\Ejercicio_1E.cpp" -o CMakeFiles\Ejercicio_1E.dir\Estructuras\Ejercicio_1E.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Estructuras\Ejercicio_1E.cpp" -o CMakeFiles\Ejercicio_1E.dir\Estructuras\Ejercicio_1E.cpp.s
 
 # Object files for target Ejercicio_1E
 Ejercicio_1E_OBJECTS = \

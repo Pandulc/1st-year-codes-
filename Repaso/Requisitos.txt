@@ -1,6 +1,5 @@
+Juego: Rocket League
 Aplicacion: Discord
-Prioridad: 1
-Aplicacion: BeamMP Launcher
-Prioridad: 1
-Aplicacion: Steam
+Prioridad: 2
+Aplicacion: Epic Games
 Prioridad: 1

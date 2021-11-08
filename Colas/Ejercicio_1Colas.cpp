@@ -1,21 +1,26 @@
 #include <iostream>
 #include <queue>
+
 using namespace std;
 
-int menu ();
-queue<int> load (queue<int>);
-void show (queue<int>);
-queue<int> delete_element (queue<int>);
-queue<int> insert (queue<int>);
+int menu();
 
-int main (){
+queue<int> load(queue<int>);
+
+void show(queue<int>);
+
+queue<int> delete_element(queue<int>);
+
+queue<int> insert(queue<int>);
+
+int main() {
 
     int option;
     queue<int> queue;
 
-    do{
+    do {
         option = menu();
-        switch(option){
+        switch (option) {
             case 0:
                 break;
             case 1:
@@ -31,63 +36,63 @@ int main (){
                 queue = insert(queue);
                 break;
             default:
-                cout<<"Ingrese una opcion valida"<<endl;
+                cout << "Ingrese una opcion valida" << endl;
         }
-    }while(option != 0);
+    } while (option != 0);
 
     return 0;
 }
 
-int menu (){
+int menu() {
 
     int option = 0;
-    cout<<"Ingrese la opcion a realizar"<<endl;
-    cout<<"1. Cargar datos"<<endl;
-    cout<<"2. Mostrar listado de datos"<<endl;
-    cout<<"3. Borrar un elemento de la cola"<<endl;
-    cout<<"4. Agregar un elemento a la cola"<<endl;
-    cout<<"0. Salir"<<endl;
-    cin>>option;
+    cout << "Ingrese la opcion a realizar" << endl;
+    cout << "1. Cargar datos" << endl;
+    cout << "2. Mostrar listado de datos" << endl;
+    cout << "3. Borrar un elemento de la cola" << endl;
+    cout << "4. Agregar un elemento a la cola" << endl;
+    cout << "0. Salir" << endl;
+    cin >> option;
     return option;
 
 }
 
-queue<int> load (queue<int> q){
+queue<int> load(queue<int> q) {
 
     int number;
-    cout<<"Ingrese los valores (O para salir)"<<endl;
+    cout << "Ingrese los valores (O para salir)" << endl;
     do {
-        cin>>number;
-        if(number != 0){
+        cin >> number;
+        if (number != 0) {
             q.push(number);
         }
 
-    }while(number != 0);
+    } while (number != 0);
     return q;
 
 }
 
-void show (queue<int> q){
+void show(queue<int> q) {
 
     queue<int> aux;
-    while(!q.empty()){
+    while (!q.empty()) {
 
-        cout<< q.front() <<" - ";
+        cout << q.front() << " - ";
         aux.push(q.front());
         q.pop();
 
     }
     q = aux;
-    cout<<endl;
+    cout << endl;
 
 }
 
-queue<int> delete_element (queue<int> q){
+queue<int> delete_element(queue<int> q) {
 
     int quantity;
 
-    cout<<"Ingrese la cantidad de elementos a borrar"<<endl;
-    cin>>quantity;
+    cout << "Ingrese la cantidad de elementos a borrar" << endl;
+    cin >> quantity;
     for (int i = 0; i < quantity; ++i) {
         q.pop();
     }
@@ -95,11 +100,11 @@ queue<int> delete_element (queue<int> q){
 
 }
 
-queue<int> insert (queue<int> q){
+queue<int> insert(queue<int> q) {
 
     int number;
-    cout<<"Ingrese el dato a agregar en la cola"<<endl;
-    cin>>number;
+    cout << "Ingrese el dato a agregar en la cola" << endl;
+    cin >> number;
     q.push(number);
     return q;
 

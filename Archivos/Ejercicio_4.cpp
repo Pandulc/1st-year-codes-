@@ -4,15 +4,17 @@
 
 using namespace std;
 
-int menu ();
-void write ();
-void read ();
+int menu();
 
-int main (){
+void write();
+
+void read();
+
+int main() {
     int option = 0;
-    do{
+    do {
         option = menu();
-        switch(option){
+        switch (option) {
             case 1:
                 write();
                 break;
@@ -20,38 +22,38 @@ int main (){
                 read();
                 break;
             default:
-                cout<<"Ingrese una opcion valida"<<endl;
+                cout << "Ingrese una opcion valida" << endl;
         }
-    }while(option != 0);
+    } while (option != 0);
 }
 
-int menu (){
+int menu() {
     int op = 0;
-    cout<<"Ingrese la opcion a realizar"<<endl;
-    cout<<"1. Escribir poema"<<endl;
-    cout<<"2. Mostrar poema escrito"<<endl;
-    cout<<"0. Salir"<<endl;
-    cin>>op;
+    cout << "Ingrese la opcion a realizar" << endl;
+    cout << "1. Escribir poema" << endl;
+    cout << "2. Mostrar poema escrito" << endl;
+    cout << "0. Salir" << endl;
+    cin >> op;
     return op;
 }
 
-void write(){
+void write() {
     string poem = " ";
-    cout<<"Escriba su poema"<<endl;
-    getline(cin,poem,'.');
+    cout << "Escriba su poema" << endl;
+    getline(cin, poem, '.');
     ofstream p;
-    p.open("Poema.txt",ios::app);
-    p<<poem<<endl;
+    p.open("Poema.txt", ios::app);
+    p << poem << endl;
     p.close();
 }
 
-void read(){
+void read() {
     string poem = " ";
     ifstream p;
     p.open("Poema.txt");
-    while(!p.eof()){
-        getline(p,poem);
-        cout<<poem<<endl;
+    while (!p.eof()) {
+        getline(p, poem);
+        cout << poem << endl;
     }
     p.close();
 }

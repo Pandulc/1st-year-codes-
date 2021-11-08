@@ -14,31 +14,31 @@
 
 using namespace std;
 
-void binary_converter (int);
+void binary_converter(int);
 
-int main(){
+int main() {
     int numero = 0;
 
-    do{
+    do {
 
-        cout<<endl<<"ingrese un numero para saber su equivalente en binario, ingrese un numero negativo para salir"<<endl;
-        cout<<"cargue el numero: "<<endl;
-        cin>>numero;
+        cout << endl << "ingrese un numero para saber su equivalente en binario, ingrese un numero negativo para salir"
+             << endl;
+        cout << "cargue el numero: " << endl;
+        cin >> numero;
         binary_converter(numero);
 
-    }while(numero>0);
+    } while (numero > 0);
 
     return 0;
 }
 
-void binary_converter(int num){
+void binary_converter(int num) {
 
-    if(num == 0){
-        cout<<"0";
+    if (num == 0) {
+        cout << "0";
+    } else {
+        binary_converter(num / 2);
     }
-    else{
-        binary_converter(num/2);
-    }
-    cout<<num%2;
+    cout << num % 2;
 
 }

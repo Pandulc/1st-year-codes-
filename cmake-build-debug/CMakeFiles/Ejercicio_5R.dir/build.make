@@ -68,15 +68,15 @@ include CMakeFiles/Ejercicio_5R.dir/flags.make
 CMakeFiles/Ejercicio_5R.dir/Repaso/Ejercicio_5R.cpp.obj: CMakeFiles/Ejercicio_5R.dir/flags.make
 CMakeFiles/Ejercicio_5R.dir/Repaso/Ejercicio_5R.cpp.obj: ../Repaso/Ejercicio_5R.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio_5R.dir/Repaso/Ejercicio_5R.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio_5R.dir\Repaso\Ejercicio_5R.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\Ejercicio_5R.cpp"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio_5R.dir\Repaso\Ejercicio_5R.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\Ejercicio_5R.cpp"
 
 CMakeFiles/Ejercicio_5R.dir/Repaso/Ejercicio_5R.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio_5R.dir/Repaso/Ejercicio_5R.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\Ejercicio_5R.cpp" > CMakeFiles\Ejercicio_5R.dir\Repaso\Ejercicio_5R.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\Ejercicio_5R.cpp" > CMakeFiles\Ejercicio_5R.dir\Repaso\Ejercicio_5R.cpp.i
 
 CMakeFiles/Ejercicio_5R.dir/Repaso/Ejercicio_5R.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio_5R.dir/Repaso/Ejercicio_5R.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\Ejercicio_5R.cpp" -o CMakeFiles\Ejercicio_5R.dir\Repaso\Ejercicio_5R.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Repaso\Ejercicio_5R.cpp" -o CMakeFiles\Ejercicio_5R.dir\Repaso\Ejercicio_5R.cpp.s
 
 # Object files for target Ejercicio_5R
 Ejercicio_5R_OBJECTS = \

@@ -233,6 +233,19 @@ Ejercicio_3Rec/fast:
 .PHONY : Ejercicio_3Rec/fast
 
 #=============================================================================
+# Target rules for targets named Ejercicio_8R
+
+# Build rule for target.
+Ejercicio_8R: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_8R
+.PHONY : Ejercicio_8R
+
+# fast build rule for target.
+Ejercicio_8R/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_8R.dir\build.make CMakeFiles/Ejercicio_8R.dir/build
+.PHONY : Ejercicio_8R/fast
+
+#=============================================================================
 # Target rules for targets named Ejercicio_4Rec
 
 # Build rule for target.
@@ -636,6 +649,19 @@ Guillaumet_Gabriel_eje3/fast:
 .PHONY : Guillaumet_Gabriel_eje3/fast
 
 #=============================================================================
+# Target rules for targets named Ejercicio_7R
+
+# Build rule for target.
+Ejercicio_7R: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_7R
+.PHONY : Ejercicio_7R
+
+# fast build rule for target.
+Ejercicio_7R/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_7R.dir\build.make CMakeFiles/Ejercicio_7R.dir/build
+.PHONY : Ejercicio_7R/fast
+
+#=============================================================================
 # Target rules for targets named Ejercicio_3listas_c
 
 # Build rule for target.
@@ -660,6 +686,19 @@ Ejercicio_5listas: cmake_check_build_system
 Ejercicio_5listas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_5listas.dir\build.make CMakeFiles/Ejercicio_5listas.dir/build
 .PHONY : Ejercicio_5listas/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio_9R
+
+# Build rule for target.
+Ejercicio_9R: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_9R
+.PHONY : Ejercicio_9R
+
+# fast build rule for target.
+Ejercicio_9R/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_9R.dir\build.make CMakeFiles/Ejercicio_9R.dir/build
+.PHONY : Ejercicio_9R/fast
 
 #=============================================================================
 # Target rules for targets named Ejercicio_1Colas
@@ -1844,6 +1883,78 @@ Repaso/Ejercicio_6R.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_6R.dir\build.make CMakeFiles/Ejercicio_6R.dir/Repaso/Ejercicio_6R.cpp.s
 .PHONY : Repaso/Ejercicio_6R.cpp.s
 
+Repaso/Ejercicio_7R.obj: Repaso/Ejercicio_7R.cpp.obj
+.PHONY : Repaso/Ejercicio_7R.obj
+
+# target to build an object file
+Repaso/Ejercicio_7R.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_7R.dir\build.make CMakeFiles/Ejercicio_7R.dir/Repaso/Ejercicio_7R.cpp.obj
+.PHONY : Repaso/Ejercicio_7R.cpp.obj
+
+Repaso/Ejercicio_7R.i: Repaso/Ejercicio_7R.cpp.i
+.PHONY : Repaso/Ejercicio_7R.i
+
+# target to preprocess a source file
+Repaso/Ejercicio_7R.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_7R.dir\build.make CMakeFiles/Ejercicio_7R.dir/Repaso/Ejercicio_7R.cpp.i
+.PHONY : Repaso/Ejercicio_7R.cpp.i
+
+Repaso/Ejercicio_7R.s: Repaso/Ejercicio_7R.cpp.s
+.PHONY : Repaso/Ejercicio_7R.s
+
+# target to generate assembly for a file
+Repaso/Ejercicio_7R.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_7R.dir\build.make CMakeFiles/Ejercicio_7R.dir/Repaso/Ejercicio_7R.cpp.s
+.PHONY : Repaso/Ejercicio_7R.cpp.s
+
+Repaso/Ejercicio_8R.obj: Repaso/Ejercicio_8R.cpp.obj
+.PHONY : Repaso/Ejercicio_8R.obj
+
+# target to build an object file
+Repaso/Ejercicio_8R.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_8R.dir\build.make CMakeFiles/Ejercicio_8R.dir/Repaso/Ejercicio_8R.cpp.obj
+.PHONY : Repaso/Ejercicio_8R.cpp.obj
+
+Repaso/Ejercicio_8R.i: Repaso/Ejercicio_8R.cpp.i
+.PHONY : Repaso/Ejercicio_8R.i
+
+# target to preprocess a source file
+Repaso/Ejercicio_8R.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_8R.dir\build.make CMakeFiles/Ejercicio_8R.dir/Repaso/Ejercicio_8R.cpp.i
+.PHONY : Repaso/Ejercicio_8R.cpp.i
+
+Repaso/Ejercicio_8R.s: Repaso/Ejercicio_8R.cpp.s
+.PHONY : Repaso/Ejercicio_8R.s
+
+# target to generate assembly for a file
+Repaso/Ejercicio_8R.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_8R.dir\build.make CMakeFiles/Ejercicio_8R.dir/Repaso/Ejercicio_8R.cpp.s
+.PHONY : Repaso/Ejercicio_8R.cpp.s
+
+Repaso/Ejercicio_9R.obj: Repaso/Ejercicio_9R.cpp.obj
+.PHONY : Repaso/Ejercicio_9R.obj
+
+# target to build an object file
+Repaso/Ejercicio_9R.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_9R.dir\build.make CMakeFiles/Ejercicio_9R.dir/Repaso/Ejercicio_9R.cpp.obj
+.PHONY : Repaso/Ejercicio_9R.cpp.obj
+
+Repaso/Ejercicio_9R.i: Repaso/Ejercicio_9R.cpp.i
+.PHONY : Repaso/Ejercicio_9R.i
+
+# target to preprocess a source file
+Repaso/Ejercicio_9R.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_9R.dir\build.make CMakeFiles/Ejercicio_9R.dir/Repaso/Ejercicio_9R.cpp.i
+.PHONY : Repaso/Ejercicio_9R.cpp.i
+
+Repaso/Ejercicio_9R.s: Repaso/Ejercicio_9R.cpp.s
+.PHONY : Repaso/Ejercicio_9R.s
+
+# target to generate assembly for a file
+Repaso/Ejercicio_9R.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_9R.dir\build.make CMakeFiles/Ejercicio_9R.dir/Repaso/Ejercicio_9R.cpp.s
+.PHONY : Repaso/Ejercicio_9R.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1898,6 +2009,9 @@ help:
 	@echo ... Ejercicio_5p
 	@echo ... Ejercicio_6R
 	@echo ... Ejercicio_6p
+	@echo ... Ejercicio_7R
+	@echo ... Ejercicio_8R
+	@echo ... Ejercicio_9R
 	@echo ... Guillaumet_Gabriel_eje1
 	@echo ... Guillaumet_Gabriel_eje2
 	@echo ... Guillaumet_Gabriel_eje3
@@ -2036,6 +2150,15 @@ help:
 	@echo ... Repaso/Ejercicio_6R.obj
 	@echo ... Repaso/Ejercicio_6R.i
 	@echo ... Repaso/Ejercicio_6R.s
+	@echo ... Repaso/Ejercicio_7R.obj
+	@echo ... Repaso/Ejercicio_7R.i
+	@echo ... Repaso/Ejercicio_7R.s
+	@echo ... Repaso/Ejercicio_8R.obj
+	@echo ... Repaso/Ejercicio_8R.i
+	@echo ... Repaso/Ejercicio_8R.s
+	@echo ... Repaso/Ejercicio_9R.obj
+	@echo ... Repaso/Ejercicio_9R.i
+	@echo ... Repaso/Ejercicio_9R.s
 .PHONY : help
 
 

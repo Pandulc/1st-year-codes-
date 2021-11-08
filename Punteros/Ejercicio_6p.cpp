@@ -65,7 +65,7 @@ int main() {
                 square_root(&a);
                 break;
             default:
-                cout<<"Ingrese una opcion valida"<<endl;
+                cout << "Ingrese una opcion valida" << endl;
         }
     } while (option != 0);
 
@@ -109,7 +109,7 @@ void division(float *A, float *B) {
 
 void potency(float *A, float *B) {
     float r = 0;
-    r = pow(*A,*B);
+    r = pow(*A, *B);
     cout << "El resultado es: " << r << endl;
 }
 
