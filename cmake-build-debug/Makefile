@@ -727,6 +727,19 @@ Ejercicio_2Colas/fast:
 .PHONY : Ejercicio_2Colas/fast
 
 #=============================================================================
+# Target rules for targets named Guillaumet_Gabriel_Eje2_Parcial2
+
+# Build rule for target.
+Guillaumet_Gabriel_Eje2_Parcial2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Guillaumet_Gabriel_Eje2_Parcial2
+.PHONY : Guillaumet_Gabriel_Eje2_Parcial2
+
+# fast build rule for target.
+Guillaumet_Gabriel_Eje2_Parcial2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_Eje2_Parcial2.dir\build.make CMakeFiles/Guillaumet_Gabriel_Eje2_Parcial2.dir/build
+.PHONY : Guillaumet_Gabriel_Eje2_Parcial2/fast
+
+#=============================================================================
 # Target rules for targets named Ejercicio_1Pilas
 
 # Build rule for target.
@@ -738,6 +751,19 @@ Ejercicio_1Pilas: cmake_check_build_system
 Ejercicio_1Pilas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_1Pilas.dir\build.make CMakeFiles/Ejercicio_1Pilas.dir/build
 .PHONY : Ejercicio_1Pilas/fast
+
+#=============================================================================
+# Target rules for targets named Guillaumet_Gabriel_Eje1_Parcial2
+
+# Build rule for target.
+Guillaumet_Gabriel_Eje1_Parcial2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Guillaumet_Gabriel_Eje1_Parcial2
+.PHONY : Guillaumet_Gabriel_Eje1_Parcial2
+
+# fast build rule for target.
+Guillaumet_Gabriel_Eje1_Parcial2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_Eje1_Parcial2.dir\build.make CMakeFiles/Guillaumet_Gabriel_Eje1_Parcial2.dir/build
+.PHONY : Guillaumet_Gabriel_Eje1_Parcial2/fast
 
 #=============================================================================
 # Target rules for targets named Ejercicio_2Pilas
@@ -1114,6 +1140,54 @@ Estructuras/Ejercicio_4E.s: Estructuras/Ejercicio_4E.cpp.s
 Estructuras/Ejercicio_4E.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_4E.dir\build.make CMakeFiles/Ejercicio_4E.dir/Estructuras/Ejercicio_4E.cpp.s
 .PHONY : Estructuras/Ejercicio_4E.cpp.s
+
+Examenes/Guillaumet_Gabriel_Eje1_Parcial2.obj: Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.obj
+.PHONY : Examenes/Guillaumet_Gabriel_Eje1_Parcial2.obj
+
+# target to build an object file
+Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_Eje1_Parcial2.dir\build.make CMakeFiles/Guillaumet_Gabriel_Eje1_Parcial2.dir/Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.obj
+.PHONY : Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.obj
+
+Examenes/Guillaumet_Gabriel_Eje1_Parcial2.i: Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.i
+.PHONY : Examenes/Guillaumet_Gabriel_Eje1_Parcial2.i
+
+# target to preprocess a source file
+Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_Eje1_Parcial2.dir\build.make CMakeFiles/Guillaumet_Gabriel_Eje1_Parcial2.dir/Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.i
+.PHONY : Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.i
+
+Examenes/Guillaumet_Gabriel_Eje1_Parcial2.s: Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.s
+.PHONY : Examenes/Guillaumet_Gabriel_Eje1_Parcial2.s
+
+# target to generate assembly for a file
+Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_Eje1_Parcial2.dir\build.make CMakeFiles/Guillaumet_Gabriel_Eje1_Parcial2.dir/Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.s
+.PHONY : Examenes/Guillaumet_Gabriel_Eje1_Parcial2.cpp.s
+
+Examenes/Guillaumet_Gabriel_Eje2_Parcial2.obj: Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.obj
+.PHONY : Examenes/Guillaumet_Gabriel_Eje2_Parcial2.obj
+
+# target to build an object file
+Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_Eje2_Parcial2.dir\build.make CMakeFiles/Guillaumet_Gabriel_Eje2_Parcial2.dir/Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.obj
+.PHONY : Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.obj
+
+Examenes/Guillaumet_Gabriel_Eje2_Parcial2.i: Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.i
+.PHONY : Examenes/Guillaumet_Gabriel_Eje2_Parcial2.i
+
+# target to preprocess a source file
+Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_Eje2_Parcial2.dir\build.make CMakeFiles/Guillaumet_Gabriel_Eje2_Parcial2.dir/Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.i
+.PHONY : Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.i
+
+Examenes/Guillaumet_Gabriel_Eje2_Parcial2.s: Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.s
+.PHONY : Examenes/Guillaumet_Gabriel_Eje2_Parcial2.s
+
+# target to generate assembly for a file
+Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guillaumet_Gabriel_Eje2_Parcial2.dir\build.make CMakeFiles/Guillaumet_Gabriel_Eje2_Parcial2.dir/Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.s
+.PHONY : Examenes/Guillaumet_Gabriel_Eje2_Parcial2.cpp.s
 
 Examenes/Guillaumet_Gabriel_eje1.obj: Examenes/Guillaumet_Gabriel_eje1.cpp.obj
 .PHONY : Examenes/Guillaumet_Gabriel_eje1.obj
@@ -2012,6 +2086,8 @@ help:
 	@echo ... Ejercicio_7R
 	@echo ... Ejercicio_8R
 	@echo ... Ejercicio_9R
+	@echo ... Guillaumet_Gabriel_Eje1_Parcial2
+	@echo ... Guillaumet_Gabriel_Eje2_Parcial2
 	@echo ... Guillaumet_Gabriel_eje1
 	@echo ... Guillaumet_Gabriel_eje2
 	@echo ... Guillaumet_Gabriel_eje3
@@ -2054,6 +2130,12 @@ help:
 	@echo ... Estructuras/Ejercicio_4E.obj
 	@echo ... Estructuras/Ejercicio_4E.i
 	@echo ... Estructuras/Ejercicio_4E.s
+	@echo ... Examenes/Guillaumet_Gabriel_Eje1_Parcial2.obj
+	@echo ... Examenes/Guillaumet_Gabriel_Eje1_Parcial2.i
+	@echo ... Examenes/Guillaumet_Gabriel_Eje1_Parcial2.s
+	@echo ... Examenes/Guillaumet_Gabriel_Eje2_Parcial2.obj
+	@echo ... Examenes/Guillaumet_Gabriel_Eje2_Parcial2.i
+	@echo ... Examenes/Guillaumet_Gabriel_Eje2_Parcial2.s
 	@echo ... Examenes/Guillaumet_Gabriel_eje1.obj
 	@echo ... Examenes/Guillaumet_Gabriel_eje1.i
 	@echo ... Examenes/Guillaumet_Gabriel_eje1.s
