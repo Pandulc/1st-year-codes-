@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/Repaso/Ejercicio_11R.cpp
+iostream
+-
+ctime
+-
+fstream
+-
+

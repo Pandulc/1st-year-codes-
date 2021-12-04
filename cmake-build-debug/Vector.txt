@@ -1,0 +1,3 @@
+Valores del vector:
+6	1	5	9	5	Valores mayores a 5:
+Suma de los valores: 26

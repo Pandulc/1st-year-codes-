@@ -1,0 +1,16 @@
+-----------------------------
+Nombre: 
+Guillaumet Gabriel
+Incentivo por antiguedad: 90
+Incentivo por lineas codeadas: 7470
+Descuentos: 176
+Incentivo total: 7384
+-----------------------------
+-----------------------------
+Nombre: 
+Perez Juan
+Incentivo por antiguedad: 300
+Incentivo por lineas codeadas: 18075
+Descuentos: 642
+Incentivo total: 17733
+-----------------------------

@@ -1,0 +1,8 @@
+-----------------------------
+Nombre: 
+Perez Juan
+Incentivo por antiguedad: 300
+Incentivo por lineas codeadas: 19290
+Descuentos: 580
+Incentivo total: 19010
+-----------------------------

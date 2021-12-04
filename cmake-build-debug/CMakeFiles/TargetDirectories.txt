@@ -12,6 +12,7 @@ C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercic
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_4.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_1A.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_4A.dir
+C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_13R.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_2listas.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_1C.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_4listas.dir
@@ -26,6 +27,7 @@ C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercic
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_1.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_3listas_e.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_3.dir
+C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_12R.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/EjercicioModelo2.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_1p.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_4p.dir
@@ -53,4 +55,8 @@ C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercic
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_4R.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_5R.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_6R.dir
+C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_10R.dir
+C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_11R.dir
+C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_14R.dir
+C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_15R.dir
 C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/edit_cache.dir

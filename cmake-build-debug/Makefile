@@ -298,6 +298,19 @@ Ejercicio_4A/fast:
 .PHONY : Ejercicio_4A/fast
 
 #=============================================================================
+# Target rules for targets named Ejercicio_13R
+
+# Build rule for target.
+Ejercicio_13R: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_13R
+.PHONY : Ejercicio_13R
+
+# fast build rule for target.
+Ejercicio_13R/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_13R.dir\build.make CMakeFiles/Ejercicio_13R.dir/build
+.PHONY : Ejercicio_13R/fast
+
+#=============================================================================
 # Target rules for targets named Ejercicio_2listas
 
 # Build rule for target.
@@ -478,6 +491,19 @@ Ejercicio_3: cmake_check_build_system
 Ejercicio_3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_3.dir\build.make CMakeFiles/Ejercicio_3.dir/build
 .PHONY : Ejercicio_3/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio_12R
+
+# Build rule for target.
+Ejercicio_12R: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_12R
+.PHONY : Ejercicio_12R
+
+# fast build rule for target.
+Ejercicio_12R/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_12R.dir\build.make CMakeFiles/Ejercicio_12R.dir/build
+.PHONY : Ejercicio_12R/fast
 
 #=============================================================================
 # Target rules for targets named EjercicioModelo2
@@ -816,6 +842,58 @@ Ejercicio_6R: cmake_check_build_system
 Ejercicio_6R/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_6R.dir\build.make CMakeFiles/Ejercicio_6R.dir/build
 .PHONY : Ejercicio_6R/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio_10R
+
+# Build rule for target.
+Ejercicio_10R: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_10R
+.PHONY : Ejercicio_10R
+
+# fast build rule for target.
+Ejercicio_10R/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_10R.dir\build.make CMakeFiles/Ejercicio_10R.dir/build
+.PHONY : Ejercicio_10R/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio_11R
+
+# Build rule for target.
+Ejercicio_11R: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_11R
+.PHONY : Ejercicio_11R
+
+# fast build rule for target.
+Ejercicio_11R/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_11R.dir\build.make CMakeFiles/Ejercicio_11R.dir/build
+.PHONY : Ejercicio_11R/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio_14R
+
+# Build rule for target.
+Ejercicio_14R: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_14R
+.PHONY : Ejercicio_14R
+
+# fast build rule for target.
+Ejercicio_14R/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_14R.dir\build.make CMakeFiles/Ejercicio_14R.dir/build
+.PHONY : Ejercicio_14R/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio_15R
+
+# Build rule for target.
+Ejercicio_15R: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ejercicio_15R
+.PHONY : Ejercicio_15R
+
+# fast build rule for target.
+Ejercicio_15R/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_15R.dir\build.make CMakeFiles/Ejercicio_15R.dir/build
+.PHONY : Ejercicio_15R/fast
 
 Archivos/Ejercicio_1.obj: Archivos/Ejercicio_1.cpp.obj
 .PHONY : Archivos/Ejercicio_1.obj
@@ -1813,6 +1891,150 @@ Repaso/EjercicioModelo_Parcial1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EjercicioModelo.dir\build.make CMakeFiles/EjercicioModelo.dir/Repaso/EjercicioModelo_Parcial1.cpp.s
 .PHONY : Repaso/EjercicioModelo_Parcial1.cpp.s
 
+Repaso/Ejercicio_10R.obj: Repaso/Ejercicio_10R.cpp.obj
+.PHONY : Repaso/Ejercicio_10R.obj
+
+# target to build an object file
+Repaso/Ejercicio_10R.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_10R.dir\build.make CMakeFiles/Ejercicio_10R.dir/Repaso/Ejercicio_10R.cpp.obj
+.PHONY : Repaso/Ejercicio_10R.cpp.obj
+
+Repaso/Ejercicio_10R.i: Repaso/Ejercicio_10R.cpp.i
+.PHONY : Repaso/Ejercicio_10R.i
+
+# target to preprocess a source file
+Repaso/Ejercicio_10R.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_10R.dir\build.make CMakeFiles/Ejercicio_10R.dir/Repaso/Ejercicio_10R.cpp.i
+.PHONY : Repaso/Ejercicio_10R.cpp.i
+
+Repaso/Ejercicio_10R.s: Repaso/Ejercicio_10R.cpp.s
+.PHONY : Repaso/Ejercicio_10R.s
+
+# target to generate assembly for a file
+Repaso/Ejercicio_10R.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_10R.dir\build.make CMakeFiles/Ejercicio_10R.dir/Repaso/Ejercicio_10R.cpp.s
+.PHONY : Repaso/Ejercicio_10R.cpp.s
+
+Repaso/Ejercicio_11R.obj: Repaso/Ejercicio_11R.cpp.obj
+.PHONY : Repaso/Ejercicio_11R.obj
+
+# target to build an object file
+Repaso/Ejercicio_11R.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_11R.dir\build.make CMakeFiles/Ejercicio_11R.dir/Repaso/Ejercicio_11R.cpp.obj
+.PHONY : Repaso/Ejercicio_11R.cpp.obj
+
+Repaso/Ejercicio_11R.i: Repaso/Ejercicio_11R.cpp.i
+.PHONY : Repaso/Ejercicio_11R.i
+
+# target to preprocess a source file
+Repaso/Ejercicio_11R.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_11R.dir\build.make CMakeFiles/Ejercicio_11R.dir/Repaso/Ejercicio_11R.cpp.i
+.PHONY : Repaso/Ejercicio_11R.cpp.i
+
+Repaso/Ejercicio_11R.s: Repaso/Ejercicio_11R.cpp.s
+.PHONY : Repaso/Ejercicio_11R.s
+
+# target to generate assembly for a file
+Repaso/Ejercicio_11R.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_11R.dir\build.make CMakeFiles/Ejercicio_11R.dir/Repaso/Ejercicio_11R.cpp.s
+.PHONY : Repaso/Ejercicio_11R.cpp.s
+
+Repaso/Ejercicio_12R.obj: Repaso/Ejercicio_12R.cpp.obj
+.PHONY : Repaso/Ejercicio_12R.obj
+
+# target to build an object file
+Repaso/Ejercicio_12R.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_12R.dir\build.make CMakeFiles/Ejercicio_12R.dir/Repaso/Ejercicio_12R.cpp.obj
+.PHONY : Repaso/Ejercicio_12R.cpp.obj
+
+Repaso/Ejercicio_12R.i: Repaso/Ejercicio_12R.cpp.i
+.PHONY : Repaso/Ejercicio_12R.i
+
+# target to preprocess a source file
+Repaso/Ejercicio_12R.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_12R.dir\build.make CMakeFiles/Ejercicio_12R.dir/Repaso/Ejercicio_12R.cpp.i
+.PHONY : Repaso/Ejercicio_12R.cpp.i
+
+Repaso/Ejercicio_12R.s: Repaso/Ejercicio_12R.cpp.s
+.PHONY : Repaso/Ejercicio_12R.s
+
+# target to generate assembly for a file
+Repaso/Ejercicio_12R.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_12R.dir\build.make CMakeFiles/Ejercicio_12R.dir/Repaso/Ejercicio_12R.cpp.s
+.PHONY : Repaso/Ejercicio_12R.cpp.s
+
+Repaso/Ejercicio_13R.obj: Repaso/Ejercicio_13R.cpp.obj
+.PHONY : Repaso/Ejercicio_13R.obj
+
+# target to build an object file
+Repaso/Ejercicio_13R.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_13R.dir\build.make CMakeFiles/Ejercicio_13R.dir/Repaso/Ejercicio_13R.cpp.obj
+.PHONY : Repaso/Ejercicio_13R.cpp.obj
+
+Repaso/Ejercicio_13R.i: Repaso/Ejercicio_13R.cpp.i
+.PHONY : Repaso/Ejercicio_13R.i
+
+# target to preprocess a source file
+Repaso/Ejercicio_13R.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_13R.dir\build.make CMakeFiles/Ejercicio_13R.dir/Repaso/Ejercicio_13R.cpp.i
+.PHONY : Repaso/Ejercicio_13R.cpp.i
+
+Repaso/Ejercicio_13R.s: Repaso/Ejercicio_13R.cpp.s
+.PHONY : Repaso/Ejercicio_13R.s
+
+# target to generate assembly for a file
+Repaso/Ejercicio_13R.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_13R.dir\build.make CMakeFiles/Ejercicio_13R.dir/Repaso/Ejercicio_13R.cpp.s
+.PHONY : Repaso/Ejercicio_13R.cpp.s
+
+Repaso/Ejercicio_14R.obj: Repaso/Ejercicio_14R.cpp.obj
+.PHONY : Repaso/Ejercicio_14R.obj
+
+# target to build an object file
+Repaso/Ejercicio_14R.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_14R.dir\build.make CMakeFiles/Ejercicio_14R.dir/Repaso/Ejercicio_14R.cpp.obj
+.PHONY : Repaso/Ejercicio_14R.cpp.obj
+
+Repaso/Ejercicio_14R.i: Repaso/Ejercicio_14R.cpp.i
+.PHONY : Repaso/Ejercicio_14R.i
+
+# target to preprocess a source file
+Repaso/Ejercicio_14R.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_14R.dir\build.make CMakeFiles/Ejercicio_14R.dir/Repaso/Ejercicio_14R.cpp.i
+.PHONY : Repaso/Ejercicio_14R.cpp.i
+
+Repaso/Ejercicio_14R.s: Repaso/Ejercicio_14R.cpp.s
+.PHONY : Repaso/Ejercicio_14R.s
+
+# target to generate assembly for a file
+Repaso/Ejercicio_14R.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_14R.dir\build.make CMakeFiles/Ejercicio_14R.dir/Repaso/Ejercicio_14R.cpp.s
+.PHONY : Repaso/Ejercicio_14R.cpp.s
+
+Repaso/Ejercicio_15R.obj: Repaso/Ejercicio_15R.cpp.obj
+.PHONY : Repaso/Ejercicio_15R.obj
+
+# target to build an object file
+Repaso/Ejercicio_15R.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_15R.dir\build.make CMakeFiles/Ejercicio_15R.dir/Repaso/Ejercicio_15R.cpp.obj
+.PHONY : Repaso/Ejercicio_15R.cpp.obj
+
+Repaso/Ejercicio_15R.i: Repaso/Ejercicio_15R.cpp.i
+.PHONY : Repaso/Ejercicio_15R.i
+
+# target to preprocess a source file
+Repaso/Ejercicio_15R.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_15R.dir\build.make CMakeFiles/Ejercicio_15R.dir/Repaso/Ejercicio_15R.cpp.i
+.PHONY : Repaso/Ejercicio_15R.cpp.i
+
+Repaso/Ejercicio_15R.s: Repaso/Ejercicio_15R.cpp.s
+.PHONY : Repaso/Ejercicio_15R.s
+
+# target to generate assembly for a file
+Repaso/Ejercicio_15R.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio_15R.dir\build.make CMakeFiles/Ejercicio_15R.dir/Repaso/Ejercicio_15R.cpp.s
+.PHONY : Repaso/Ejercicio_15R.cpp.s
+
 Repaso/Ejercicio_1R.obj: Repaso/Ejercicio_1R.cpp.obj
 .PHONY : Repaso/Ejercicio_1R.obj
 
@@ -2040,6 +2262,12 @@ help:
 	@echo ... EjercicioModelo
 	@echo ... EjercicioModelo2
 	@echo ... Ejercicio_1
+	@echo ... Ejercicio_10R
+	@echo ... Ejercicio_11R
+	@echo ... Ejercicio_12R
+	@echo ... Ejercicio_13R
+	@echo ... Ejercicio_14R
+	@echo ... Ejercicio_15R
 	@echo ... Ejercicio_1A
 	@echo ... Ejercicio_1C
 	@echo ... Ejercicio_1Colas
@@ -2214,6 +2442,24 @@ help:
 	@echo ... Repaso/EjercicioModelo_Parcial1.obj
 	@echo ... Repaso/EjercicioModelo_Parcial1.i
 	@echo ... Repaso/EjercicioModelo_Parcial1.s
+	@echo ... Repaso/Ejercicio_10R.obj
+	@echo ... Repaso/Ejercicio_10R.i
+	@echo ... Repaso/Ejercicio_10R.s
+	@echo ... Repaso/Ejercicio_11R.obj
+	@echo ... Repaso/Ejercicio_11R.i
+	@echo ... Repaso/Ejercicio_11R.s
+	@echo ... Repaso/Ejercicio_12R.obj
+	@echo ... Repaso/Ejercicio_12R.i
+	@echo ... Repaso/Ejercicio_12R.s
+	@echo ... Repaso/Ejercicio_13R.obj
+	@echo ... Repaso/Ejercicio_13R.i
+	@echo ... Repaso/Ejercicio_13R.s
+	@echo ... Repaso/Ejercicio_14R.obj
+	@echo ... Repaso/Ejercicio_14R.i
+	@echo ... Repaso/Ejercicio_14R.s
+	@echo ... Repaso/Ejercicio_15R.obj
+	@echo ... Repaso/Ejercicio_15R.i
+	@echo ... Repaso/Ejercicio_15R.s
 	@echo ... Repaso/Ejercicio_1R.obj
 	@echo ... Repaso/Ejercicio_1R.i
 	@echo ... Repaso/Ejercicio_1R.s
