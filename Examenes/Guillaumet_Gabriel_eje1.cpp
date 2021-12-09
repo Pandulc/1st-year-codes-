@@ -56,9 +56,9 @@ int menu() {
     int op = 0;
 
     cout << "Ingrese la opcion a realizar" << endl;
-    cout << "1. mostrar el listado completo de celulares." << endl;
+    cout << "1. show el listado completo de celulares." << endl;
     cout
-            << "2. mostrar el listado completo de celulares que no hay Stock. Y generar un archivo para enviar al proveedor."
+            << "2. show el listado completo de celulares que no hay Stock. Y generar un archivo para enviar al proveedor."
             << endl;
     cout << "3. Calcular precio al publico." << endl;
     cout << "4. Ordenar por precio al publico." << endl;

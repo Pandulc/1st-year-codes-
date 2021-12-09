@@ -22,7 +22,7 @@ int main() {
             case 0:
                 break;
             case 1:
-                cout << "Ingrese la cantidad de datos a cargar" << endl;
+                cout << "Ingrese la cantidad de datos a load" << endl;
                 cin >> cantidad;
                 lista = new int[cantidad];
                 reservaYcarga(lista, cantidad);

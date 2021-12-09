@@ -49,7 +49,7 @@ int menu() {
 
     cout << "Ingrese la opcion a realizar" << endl;
     cout << "1. Mostrar los valores y direcciones de memoria." << endl;
-    cout << "2. Buscar y mostrar el numero menor y el numero mayor." << endl;
+    cout << "2. Buscar y show el numero menor y el numero mayor." << endl;
     cout << "3. Calcular la suma de los valores pares." << endl;
     cout << "0. Salir." << endl;
     cin >> op;

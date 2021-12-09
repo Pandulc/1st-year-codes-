@@ -73,7 +73,7 @@ void show_list(Pets p[3]) {
 void show_list_byType(Pets p[3]) {
     string t_wanted = " ";
 
-    cout << "Ingrese el tipo de mascota a mostrar" << endl;
+    cout << "Ingrese el tipo de mascota a show" << endl;
     getline(cin, t_wanted, '.');
 
     for (int ii = 0; ii < 3; ii++) {

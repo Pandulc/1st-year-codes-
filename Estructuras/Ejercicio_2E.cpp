@@ -3,7 +3,7 @@ en un vector de estructura. Luego crear un men� que permita las opciones:
 
 a. agregar una nueva canci�n
 
-b. mostrar todas las canciones
+b. show todas las canciones
 
 c. buscar una canci�n por titulo
 */

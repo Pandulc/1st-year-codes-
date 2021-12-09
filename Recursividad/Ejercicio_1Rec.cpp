@@ -1,4 +1,4 @@
-//1. Realizar un programa que solicite el ingresar de un número y mostrar su equivalente en binario usando una función recursiva. Por ejemplo:
+//1. Realizar un programa que solicite el ingresar de un número y show su equivalente en binario usando una función recursiva. Por ejemplo:
 //
 //SISTEMA DECIMAL    SISTEMA BINARIO
 

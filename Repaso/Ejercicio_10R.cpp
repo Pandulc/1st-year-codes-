@@ -1,5 +1,5 @@
-//Escribir un programa utilizando punteros y funciones en la cual se desea cargar en un vector con las ventas diarias 
-//de un negocio, 10 como máximo. La carga finaliza cuando el monto igual a cero. Además, se pide:
+//Escribir un programa utilizando punteros y funciones en la cual se desea load en un vector con las ventas diarias
+//de un negocio, 10 como máximo. La carga finaliza cuando el amount igual a cero. Además, se pide:
 //
 //Cantidad de ventas cargadas.
 //
@@ -75,7 +75,7 @@ void load(int b[]) {
     int amount = 0;
     int counter = 0;
     do {
-        cout << "Ingrese el monto de la factura" << endl;
+        cout << "Ingrese el amount de la factura" << endl;
         cin >> amount;
         b[counter] = amount;
         counter++;

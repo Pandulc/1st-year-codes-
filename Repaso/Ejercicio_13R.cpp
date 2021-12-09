@@ -67,7 +67,7 @@ int main() {
                 cout << endl;
                 break;
             case 4:
-                winner(&participants,&winners);
+                winner(&participants, &winners);
                 while (!winners.empty()) {
                     s_aux.push(winners.top());
                     cout << winners.top() << "\n";
@@ -171,8 +171,6 @@ void roundWinner(LinkedList<Participants> *p, queue<string> *rw) {
             p->replace(i, aux3);
         }
     }
-
-
     rw->push(aux1.country);
     rw->push(aux2.country);
     rw->push(aux3.country);
@@ -187,22 +185,20 @@ void totalPoints(LinkedList<Participants> *p) {
     }
 }
 
-void winner (LinkedList<Participants>* p,stack<string>* w) {
+void winner(LinkedList<Participants> *p, stack<string> *w) {
     struct Participants gold;
     struct Participants silver;
     struct Participants bronze;
     for (int i = 0; i < p->size(); ++i) {
-        if(i == 0){
+        if (i == 0) {
             gold = p->get(i);
-            silver = p->get(i+1);
-            bronze = p->get(i+2);
-        }
-        else if(p->get(i).total > gold.total){
+            silver = p->get(i + 1);
+            bronze = p->get(i + 2);
+        } else if (p->get(i).total > gold.total) {
             silver = gold;
             bronze = gold;
             gold = p->get(i);
-        }
-        else if(p->get(i).total < gold.total && p->get(i).total > silver.total){
+        } else if (p->get(i).total < gold.total && p->get(i).total > silver.total) {
             bronze = silver;
             silver = p->get(i);
         }

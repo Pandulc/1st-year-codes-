@@ -98,7 +98,7 @@ void rest_stock(LinkedList<Stock> stock) {
     int stock_toremove = 0;
     struct Stock aux;
 
-    cout << "Ingrese el codigo de producto a descontar Stock" << endl;
+    cout << "Ingrese el code de producto a descontar Stock" << endl;
     cin >> code;
     cout << "Ingrese el Stock a reducir" << endl;
     cin >> stock_toremove;
@@ -119,7 +119,7 @@ void add_stock(LinkedList<Stock> stock) {
     int stock_toadd = 0;
     struct Stock aux;
 
-    cout << "Ingrese el codigo de producto a agregar Stock" << endl;
+    cout << "Ingrese el code de producto a agregar Stock" << endl;
     cin >> code;
     cout << "Ingrese el Stock a agregar" << endl;
     cin >> stock_toadd;

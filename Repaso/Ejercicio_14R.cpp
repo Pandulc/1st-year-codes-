@@ -9,12 +9,12 @@
 //        Registrar una solicitud. El N° de solicitud deberá ser generado automáticamente y se solicitará que el
 //        usuario ingrese los siguientes datos: apellido y nombre del responsable del sector, rubro al que pertenece
 //        (Artesanía, Gastronomía o Espectáculo), si requiere mesa o silla. Luego deberá llamar a una función para
-//        calcular el monto a pagar y otra función para asignar el sector, los sectores deben ser consecutivos y no
+//        calcular el amount a pagar y otra función para asignar el sector, los sectores deben ser consecutivos y no
 //        repetirse. En caso de que el rubro sea espectáculo se le asigna sector 0 que es el escenario.
 //
 //        Mostrar Listado de solicitudes
 //
-//        Pasar los espectáculos a una pila y mostrar pila.
+//        Pasar los espectáculos a una pila y show pila.
 
 
 #include <iostream>
@@ -82,7 +82,7 @@ int menu() {
     cout << "Ingrese la opcion a realizar" << endl;
     cout << "1. Registrar una solicitud" << endl;
     cout << "2. Mostrar Listado de solicitudes" << endl;
-    cout << "3. Pasar los espectaculos a una pila y mostrar pila" << endl;
+    cout << "3. Pasar los espectaculos a una pila y show pila" << endl;
     cout << "0. Salir" << endl;
     cin >> op;
 
@@ -113,7 +113,7 @@ void load(LinkedList<Request> *r, int *n, int *s) {
         amount(r);
         *n = *n + 1;
         *s = *s + 1;
-        cout << "Desea cargar otra solicitud? 1. Si 0. No" << endl;
+        cout << "Desea load otra solicitud? 1. Si 0. No" << endl;
         cin >> continuity;
     } while (continuity != 0);
 }

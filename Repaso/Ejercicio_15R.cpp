@@ -29,10 +29,10 @@
 //
 //Mostrar el mejor programador del mes. Es quien tiene más líneas de código con menos errores.
 //
-//Mostrar un TDA Pila de todos los incentivos totales por cada programador, es decir generar y mostrar una
+//Mostrar un TDA Pila de todos los incentivos totales por cada programador, es decir generar y show una
 //pila con todos los incentivos.
 //
-//Mostrar un TDA Cola de todas las penalizaciones totales por cada programador, es decir generar y mostrar
+//Mostrar un TDA Cola de todas las penalizaciones totales por cada programador, es decir generar y show
 //una cola con todas las penalizaciones por errores en el código.
 //
 //Generar un archivo txt con el listado de incentivos a los programadores.
@@ -176,7 +176,7 @@ void load(LinkedList<Employee> *e, LinkedList<Incentives> *i) {
             cout << "Debido a que el empleado este mes tuvo igual cantidad de lineas que errores, no recibira incentivo"
                  << endl;
         }
-        cout << "Desea cargar otro empleado? 1. Si 0. No" << endl;
+        cout << "Desea load otro empleado? 1. Si 0. No" << endl;
         cin >> continuity;
     } while (continuity != 0);
 

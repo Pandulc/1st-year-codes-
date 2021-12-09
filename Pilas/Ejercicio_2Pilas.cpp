@@ -95,7 +95,7 @@ stack<Product> stock_discount(stack<Product> s) {
     int quantity;
     int code;
 
-    cout << "Ingrese el codigo de producto a descontar stock" << endl;
+    cout << "Ingrese el code de producto a descontar stock" << endl;
     cin >> code;
     cout << "Ingrese la cantidad de stock a descontar" << endl;
     cin >> quantity;
@@ -120,7 +120,7 @@ stack<Product> stock_add(stack<Product> s) {
     int quantity;
     int code;
 
-    cout << "Ingrese el codigo de producto a agregar stock" << endl;
+    cout << "Ingrese el code de producto a agregar stock" << endl;
     cin >> code;
     cout << "Ingrese la cantidad de stock a agregar" << endl;
     cin >> quantity;

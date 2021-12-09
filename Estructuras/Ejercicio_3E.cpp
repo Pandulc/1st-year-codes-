@@ -5,7 +5,7 @@ Luego crear un men� que permita las opciones:
 
 a. agregar un empleado
 
-b. mostrar todos los empleados
+b. show todos los empleados
 
 c. buscar un empleado por legajo para ver si existe o no.
 

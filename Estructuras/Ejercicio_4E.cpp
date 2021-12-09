@@ -1,6 +1,6 @@
 /*4. Crear una clase Actividad, las mismas corresponden a las actividades de un gym.
 * Atributos: nombre, cupo, dias de la semana, horario, cant_inscriptos.
-* Funciones: mostrar,buscar, mostrar actividades que aun no tienen el cupo lleno.
+* Funciones: mostrar,buscar, show actividades que aun no tienen el cupo lleno.
 */
 
 #include <iostream>

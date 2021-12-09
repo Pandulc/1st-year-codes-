@@ -1,12 +1,12 @@
 //Escribir un programa donde se solicite el tamaño del vector y reservar memoria. Luego al finalizar la ejecución del
-//programa liberarla.  (malloc, sizeof). El tamaño debe ser entre 1 y 10, caso contrario debe mostrar el mensaje de
+//programa liberarla.  (malloc, sizeof). El tamaño debe ser entre 1 y 10, caso contrario debe show el mensaje de
 //error y solicitar nuevamente el ingreso de otro número. Luego crear las siguientes funciones:
 
 //rellenarVector() que rellene aleatoriamente el vector con números del 1 al 20 utilizando punteros.
 //
 //mostrarVector() que muestre el vector anterior por medio de punteros los valores del vector y sus correspondientes direcciones.
 //
-//sumar() que sume los primeros “n” valores del vector de manera recursiva.
+//sum() que sume los primeros “n” valores del vector de manera recursiva.
 //
 //Utilizar funciones y punteros en este ejercicio.
 
@@ -32,7 +32,7 @@ int main() {
     int total;
     int n;
 
-    cout << "Ingrese la cantidad de valores a cargar (entre 1 y 10)" << endl;
+    cout << "Ingrese la cantidad de valores a load (entre 1 y 10)" << endl;
     cin >> size;
     if (size > 10) {
         cout << "Porfavor, igrese un valor entre 1 y 10" << endl;
@@ -54,7 +54,7 @@ int main() {
                 cout << endl;
                 break;
             case 3:
-                cout << "Ingrese la cantidad de elementos a sumar" << endl;
+                cout << "Ingrese la cantidad de elementos a sum" << endl;
                 cin >> n;
                 total = sum(vector, n-1);
                 cout << "La suma de los n elementos es: " << total << endl;

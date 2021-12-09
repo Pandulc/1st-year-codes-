@@ -25,14 +25,14 @@ int main (){
         option = menu();
         switch(option){
             case 1:
-                cout<<"Ingrese la cantidad de ventas a cargar"<<endl;
+                cout<<"Ingrese la cantidad de ventas a load"<<endl;
                 cin>>quantity;
                 sale = new Bill [quantity];
                 load(sale,quantity);
                 break;
             case 2:
                 amount = sum_amount(sale,quantity-1);
-                cout<<"El monto total del dia es de: "<<amount<<" pesos"<<endl;
+                cout<<"El amount total del dia es de: "<<amount<<" pesos"<<endl;
                 break;
             case 3:
                 save_sales(sale,quantity);
@@ -67,7 +67,7 @@ void load (Bill * s,int q){
         cin>>s[ii].number;
         cout<<"Ingrese la fecha de la venta"<<endl;
         getline(cin,s[ii].date,'.');
-        cout<<"Ingrese el monto de la venta"<<endl;
+        cout<<"Ingrese el amount de la venta"<<endl;
         cin>>s[ii].amount;
     }
 }

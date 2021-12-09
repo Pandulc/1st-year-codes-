@@ -135,7 +135,7 @@ float sale(LinkedList<Product> *l_p, LinkedList<Bills> *l_v) {
     }
     cout << endl;
     do {
-        cout << "Ingrese el codigo del producto buscado" << endl;
+        cout << "Ingrese el code del producto buscado" << endl;
         cin >> s_code;
         cout << "Ingrese la cantidad de unidades a llevar" << endl;
         cin >> s_quantity;
@@ -192,7 +192,7 @@ float sale(LinkedList<Product> *l_p, LinkedList<Bills> *l_v) {
     cin >> pay_method;
     if (pay_method == 1) {
         cout << "El total a pagar es: " << total << endl;
-        cout << "Ingrese el monto abonado" << endl;
+        cout << "Ingrese el amount abonado" << endl;
         cin >> amount;
         cout << "El vuelto a entregar es de: " << amount - total << endl;
     }

@@ -1,5 +1,5 @@
 /*4. Realizar un programa que muestre la serie Fibonacci, ingresando la cantidad de n�meros de la serie a
-* visualizar. Por ejemplo: 10 valores. Deber�a mostrar: 0   1   1   2   3   5   8   13   21   34
+* visualizar. Por ejemplo: 10 valores. Deber�a show: 0   1   1   2   3   5   8   13   21   34
 */
 #include <iostream>
 
@@ -11,7 +11,7 @@ int main() {
     int quantity = 0;
     int ii = 0;
 
-    cout << "Ingrese la cantidad de valores de la sucesion a mostrar" << endl;
+    cout << "Ingrese la cantidad de valores de la sucesion a show" << endl;
     cin >> quantity;
 
     for (ii = 0; ii < quantity; ii++) {

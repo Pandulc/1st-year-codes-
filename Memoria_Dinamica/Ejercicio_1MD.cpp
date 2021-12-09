@@ -12,7 +12,7 @@ int main() {
 
     int characters = 0;
     int *array;
-    cout << "Introduzca la cantidad de caracteres a cargar" << endl;
+    cout << "Introduzca la cantidad de caracteres a load" << endl;
     cin >> characters;
     array = new int[characters];
     load(array, characters);

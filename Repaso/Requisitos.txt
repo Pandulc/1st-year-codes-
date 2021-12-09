@@ -1,5 +1,0 @@
-Juego: Rocket League
-Aplicacion: Discord
-Prioridad: 2
-Aplicacion: Epic Games
-Prioridad: 1

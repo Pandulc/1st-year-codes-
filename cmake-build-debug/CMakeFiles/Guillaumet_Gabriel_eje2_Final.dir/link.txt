@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Guillaumet_Gabriel_eje2_Final.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\Guillaumet_Gabriel_eje2_Final.dir/objects.a @CMakeFiles\Guillaumet_Gabriel_eje2_Final.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Guillaumet_Gabriel_eje2_Final.dir/objects.a -Wl,--no-whole-archive -o Guillaumet_Gabriel_eje2_Final.exe -Wl,--out-implib,libGuillaumet_Gabriel_eje2_Final.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Guillaumet_Gabriel_eje2_Final.dir\linklibs.rsp

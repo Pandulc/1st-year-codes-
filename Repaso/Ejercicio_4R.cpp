@@ -60,7 +60,7 @@ int menu() {
 
     int option = 0;
     cout << "Ingrese la opcion a realizar" << endl;
-    cout << "1. Agregar un valor a la cola de numeros y mostrar la cantidad de valores que hay en la cola." << endl;
+    cout << "1. Agregar un valor a la cola de numeros y show la cantidad de valores que hay en la cola." << endl;
     cout << "2. Pasar los valores menores a 5 a una pila y los mayores a 5 una lista." << endl;
     cout << "3. Calcular la sumatoria de los valores de la pila, cola y lista." << endl;
     cout << "4. Mostrar todos los valores de la pila, cola y lista." << endl;

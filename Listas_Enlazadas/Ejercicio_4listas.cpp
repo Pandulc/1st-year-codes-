@@ -89,7 +89,7 @@ LinkedList<invoice> pay(LinkedList<invoice> b) {
 
             cout << "Numero de Cliente: " << aux_b.client_number << "\n" << "Comuna: " << aux_b.commune << "\n"
                  << "GB consumidos: " << aux_b.GB << "\n" << "Monto a Pagar: " << aux_b.amount << endl;
-            cout << "Ingrese el monto a pagar" << endl;
+            cout << "Ingrese el amount a pagar" << endl;
             cin >> aux_a;
             aux_b.amount = aux_b.amount - aux_a;
             cout << "------------------------------------------------" << endl;

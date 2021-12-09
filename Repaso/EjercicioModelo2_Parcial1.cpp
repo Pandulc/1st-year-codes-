@@ -18,7 +18,7 @@ int main (){
     int quantity = 0;
 
     Phone * phone;
-    cout<<"Ingrese el numero de telefonos a cargar"<<endl;
+    cout<<"Ingrese el numero de telefonos a load"<<endl;
     cin>>quantity;
     phone = new Phone [quantity];
     load(phone,quantity);
