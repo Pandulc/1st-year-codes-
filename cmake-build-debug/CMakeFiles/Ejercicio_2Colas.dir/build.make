@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico"
+CMAKE_SOURCE_DIR = "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Ejercicio_2Colas.dir/depend.make
@@ -67,16 +67,16 @@ include CMakeFiles/Ejercicio_2Colas.dir/flags.make
 
 CMakeFiles/Ejercicio_2Colas.dir/Colas/Ejercicio_2Colas.cpp.obj: CMakeFiles/Ejercicio_2Colas.dir/flags.make
 CMakeFiles/Ejercicio_2Colas.dir/Colas/Ejercicio_2Colas.cpp.obj: ../Colas/Ejercicio_2Colas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio_2Colas.dir/Colas/Ejercicio_2Colas.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio_2Colas.dir\Colas\Ejercicio_2Colas.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Colas\Ejercicio_2Colas.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio_2Colas.dir/Colas/Ejercicio_2Colas.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio_2Colas.dir\Colas\Ejercicio_2Colas.cpp.obj -c "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico\Colas\Ejercicio_2Colas.cpp"
 
 CMakeFiles/Ejercicio_2Colas.dir/Colas/Ejercicio_2Colas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio_2Colas.dir/Colas/Ejercicio_2Colas.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Colas\Ejercicio_2Colas.cpp" > CMakeFiles\Ejercicio_2Colas.dir\Colas\Ejercicio_2Colas.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico\Colas\Ejercicio_2Colas.cpp" > CMakeFiles\Ejercicio_2Colas.dir\Colas\Ejercicio_2Colas.cpp.i
 
 CMakeFiles/Ejercicio_2Colas.dir/Colas/Ejercicio_2Colas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio_2Colas.dir/Colas/Ejercicio_2Colas.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\Colas\Ejercicio_2Colas.cpp" -o CMakeFiles\Ejercicio_2Colas.dir\Colas\Ejercicio_2Colas.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico\Colas\Ejercicio_2Colas.cpp" -o CMakeFiles\Ejercicio_2Colas.dir\Colas\Ejercicio_2Colas.cpp.s
 
 # Object files for target Ejercicio_2Colas
 Ejercicio_2Colas_OBJECTS = \
@@ -90,7 +90,7 @@ Ejercicio_2Colas.exe: CMakeFiles/Ejercicio_2Colas.dir/build.make
 Ejercicio_2Colas.exe: CMakeFiles/Ejercicio_2Colas.dir/linklibs.rsp
 Ejercicio_2Colas.exe: CMakeFiles/Ejercicio_2Colas.dir/objects1.rsp
 Ejercicio_2Colas.exe: CMakeFiles/Ejercicio_2Colas.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ejercicio_2Colas.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ejercicio_2Colas.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Ejercicio_2Colas.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -102,6 +102,6 @@ CMakeFiles/Ejercicio_2Colas.dir/clean:
 .PHONY : CMakeFiles/Ejercicio_2Colas.dir/clean
 
 CMakeFiles/Ejercicio_2Colas.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico" "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico" "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug" "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug" "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Info II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles\Ejercicio_2Colas.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico" "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico" "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico\cmake-build-debug" "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico\cmake-build-debug" "C:\Users\usuario\Desktop\Gabi\Facultad\1er anio\Segundo Semestre\Informatica II\Ejercicios 2do Semestre\Practico\cmake-build-debug\CMakeFiles\Ejercicio_2Colas.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Ejercicio_2Colas.dir/depend
 

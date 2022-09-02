@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/Repaso/Ejercicio_8R.cpp" "C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Info II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_8R.dir/Repaso/Ejercicio_8R.cpp.obj"
+  "C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Informatica II/Ejercicios 2do Semestre/Practico/Repaso/Ejercicio_8R.cpp" "C:/Users/usuario/Desktop/Gabi/Facultad/1er anio/Segundo Semestre/Informatica II/Ejercicios 2do Semestre/Practico/cmake-build-debug/CMakeFiles/Ejercicio_8R.dir/Repaso/Ejercicio_8R.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
